@@ -1,9 +1,7 @@
-block head
-	link(href="index.css",rel="stylesheet")
+extend _base
 
-block scripts
-	script(src="js/jquery-2.2.0.min.js")
-	script(src="index.js")
+block append head
+	link(href="index.css",rel="stylesheet")
 
 block main
 	.jumbotron
@@ -28,3 +26,16 @@ block main
 						a(href=article.url)
 							strong.title= article.title
 					= article.description			
+	.section
+		.container
+			form#form
+				h2 Indsend en artikel og få den vist i listen
+				p
+					label(for="url") Link
+					input(type="url",id="url",required)
+				p
+					button(type="submit") Indsend artikel
+
+block append body
+	script(src="js/jquery-2.2.0.min.js")
+	script(src="index.js")
