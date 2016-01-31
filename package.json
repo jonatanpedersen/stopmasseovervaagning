@@ -1,5 +1,5 @@
 {
-  "name": "stopovervaagningnu",
+  "name": "stopmasseovervaagning",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonatanpedersen/stopovervaagningnu.git"
+    "url": "git+https://github.com/jonatanpedersen/stopmasseovervaagning.git"
   },
   "author": "Jonatan Pedersen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jonatanpedersen/stopovervaagningnu/issues"
+    "url": "https://github.com/jonatanpedersen/stopmasseovervaagning/issues"
   },
-  "homepage": "https://github.com/jonatanpedersen/stopovervaagningnu#readme",
+  "homepage": "https://github.com/jonatanpedersen/stopmasseovervaagning#readme",
   "dependencies": {
     "babel-core": "^6.4.5",
     "babel-preset-es2015-node": "^5.0.2",
