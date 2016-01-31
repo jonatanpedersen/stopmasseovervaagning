@@ -23,3 +23,12 @@ block main
 						a(href=article.url)
 							strong.title= article.title
 					= article.description			
+	.section
+		.container
+			form(method="post")
+				h2 Indsend en artikel og få den vist i listen
+				p
+					label(for="url") Link
+					input(type="url",id="url")
+				p
+					button(type="submit") Indsend	

@@ -20,6 +20,7 @@
     "babel-core": "^6.4.5",
     "babel-preset-es2015-node": "^5.0.2",
     "express": "^4.13.4",
+    "github-api": "^0.11.2",
     "harp": "^0.20.1"
   }
 }
