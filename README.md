@@ -10,7 +10,7 @@ Alle commits/pushes til master bliver automatisk deployed til en heroku hobby dy
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2016 Stop Overvågning Nu https://stopovervaagningnu.herokuapp.com/
+Copyright (c) 2016 Stop Masseovervågning Nu https://stopovervaagningnu.herokuapp.com/
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
