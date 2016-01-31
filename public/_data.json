@@ -1,7 +1,7 @@
 {
   "index": {
-    "title": "Stop overvågning nu!",
-    "description": "Stop systematisk overvågning af internettet i Danmark."
+    "title": "Stop Masseovervågning!",
+    "description": "Stop masseovervågning af internettet i Danmark."
   },
   "slutbruger": {
     "title": "Slutbruger",
@@ -10,5 +10,9 @@
   "tjenesteudbyder": {
     "title": "Tjenesteudbyder",
     "description": "Lær hvad du som tjenesteudbyder kan gøre for at stoppe overvågning af internettet."
+  },
+  "fakta": {
+    "title": "Fakta om sessionslogning",
+    "description": null
   }
 }
