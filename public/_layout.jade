@@ -5,8 +5,9 @@ html
 		meta(name='description', content=description)
 		meta(name='viewport', content='width=device-width, user-scalable=yes')
 		link(rel='author', href='humans.txt')
+		block head
 	body
-		main.main
+			main.main
 			block main
 				!=yield
 		footer.footer
