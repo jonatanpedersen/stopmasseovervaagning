@@ -3,10 +3,23 @@ block head
 block main
 	.jumbotron
 		.container
-			h1 Stop Overvågning Nu!
-			p Vær med til at stoppe regeringens forsøg på at indføre masseovervågning af borgernes færden på internettet.
+			h1
+				span.ban
+					i(class="icon icon-ban") 
+				span Stop Overvågning Nu!
+			p Regeringen ønsker at indføre massiv overvågning af internettet i terrorbekæmpelsens navn. Overvågning går i mod vores basale retsprincipper og vil af tekniske grunde aldrig have den ønskede virkning. Den øgede overvågning vil tilgengæld koste internetudbydere og forbrugere mange 100 millioner kr. 
+			p.strong Hjælp med at stoppe regeringen nu!
 			p
-				a(href="https://github.com/jonatanpedersen/stopovervaagningnu",class="btn") Bidrag med indhold til siden
+				a(href="https://github.com/jonatanpedersen/stopovervaagningnu",class="btn") 
+					i(class="icon icon-github") 
+					| Bidrag med din ekspertise her
 	.section
 		.container
-			h2 Nyheder
+			h2 Artikler
+			p Se hvad pressen skriver om sagen nedenfor:
+			each article in public.data.articles._data
+				article.article
+					header 
+						a(href=article.url)
+							strong.title= article.title
+					= article.description			

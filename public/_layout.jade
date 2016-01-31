@@ -7,14 +7,20 @@ html
 		link(rel='author', href='humans.txt')
 		block head
 	body
-			main.main
-				block main
-					!=yield
+		main.main
+			block main
+				!=yield
 		nav.nav
 			.container
-				a(href="/") stop overvågning nu!
-				a(href="/slutbruger") Slutbruger
-				a(href="/tjenesteudbyder") Tjenesteudbyder
+				a(href="/") 
+					i(class="icon icon-home")
+					span  stop overvågning nu!
+				a(href="/slutbruger") 
+					i(class="icon icon-user")
+					span  Slutbruger
+				a(href="/tjenesteudbyder") 
+					i(class="icon icon-building-o")
+					span  Tjenesteudbyder
 		footer.footer
 			.container
 				hr

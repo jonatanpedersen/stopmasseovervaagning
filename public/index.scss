@@ -3,11 +3,16 @@
 .jumbotron {
   font-size: 2rem;
   text-align: center;
-  .contribute-button {
-    display: inline-block;
-    padding: 1rem 2rem;
-    background-color: #000;
-    text-decoration: none;
-    color: #fff;
+  .ban {
+    font-size: 32rem;
+    display: block;
   }
+
+  .strong {
+    font-weight: bold;
+  }
+}
+
+.article {
+  margin: 2rem 0;
 }
