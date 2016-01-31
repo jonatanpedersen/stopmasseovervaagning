@@ -1,0 +1,14 @@
+html
+	head
+		meta(charset='UTF-8')
+		title= title
+		meta(name='description', content=description)
+		meta(name='viewport', content='width=device-width, user-scalable=yes')
+		link(rel='author', href='humans.txt')
+	body
+		main.main
+			block main
+				!=yield
+		footer.footer
+			.container
+				p.copyright &copy; 2016 Stop Overvågning Nu
