@@ -1,0 +1,23 @@
+{
+  "index": {
+    "title": "Stop overvågning nu!",
+    "description": "Stop systematisk overvågning af internettet i Danmark.",
+    "articles": [
+      {
+        "title": "",
+        "description": "",
+        "url": "",
+        "date": "1016-01-30",
+        "source": "Information"
+     }
+    ]
+  },
+  "slutbruger": {
+    "title": "Slutbruger",
+    "description": "Lær hvad du som slutbruger kan gøre for at stoppe overvågning af internettet."
+  },
+  "tjenesteudbyder": {
+    "title": "Tjenesteudbyder",
+    "description": "Lær hvad du som tjenesteudbyder kan gøre for at stoppe overvågning af internettet."
+  }
+}
