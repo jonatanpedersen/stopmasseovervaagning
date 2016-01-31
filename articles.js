@@ -1,13 +1,40 @@
 'use strict';
 import Github from 'github-api';
+import request from 'request';
+import cheerio from 'cheerio';
 
 let github = new Github({
 	token: process.env.GITHUB_TOKEN,
 	auth: "oauth"
 });
 
-export function submitArticle(article, callback) {
-	let repo = github.getRepo('jonatanpedersen', 'stopovervaagningnu');
+export function createPostSubmitArticle () {
+	return (req, res) => {
+		var url = req.body.url;
+
+		request(url, function(err, response, html){
+			if (err) {
+				return res.json(err);
+			}
+
+			var $ = cheerio.load(html);
+
+			var article = {
+				title : $('head > title').text(),
+				description : $('head > meta[name=description]').attr('content'),
+				url: url,
+				date: (new Date()).toISOString()
+			};
+
+			createArticleSubmissionPullRequest(article, (err) => {
+				res.json(err);
+			});
+		})
+	};
+}
+
+function createArticleSubmissionPullRequest(article, callback) {
+	let repo = github.getRepo('jonatanpedersen', 'stopmasseovervaagning');
 
 	let timestamp = (new Date).getTime().toString();
 	var branchName = `submission-${timestamp}`;

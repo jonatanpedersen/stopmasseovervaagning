@@ -1,0 +1,30 @@
+html
+	head
+		block head
+			meta(charset='UTF-8')
+			title= title
+			meta(name='description', content=description)
+			meta(name='viewport', content='width=device-width, user-scalable=yes')
+			link(rel='author', href='humans.txt')
+	body
+		block body
+			main.main
+				block main
+			nav.nav
+				.container
+					a(href="/") 
+						i(class="icon icon-ban")
+						span  stop masseovervågning
+					a(href="/fakta") 
+						i(class="icon icon-check")
+						span  Fakta					
+					a(href="/slutbruger") 
+						i(class="icon icon-user")
+						span  Slutbruger
+					a(href="/tjenesteudbyder") 
+						i(class="icon icon-building-o")
+						span  Tjenesteudbyder
+			footer.footer
+				.container
+					hr
+					p.copyright &copy; 2016 Stop Masseovervågning

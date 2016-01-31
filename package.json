@@ -1,26 +1,29 @@
 {
-    "name": "stopmasseovervaagning",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/jonatanpedersen/stopmasseovervaagning.git"
-    },
-    "author": "Jonatan Pedersen",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/jonatanpedersen/stopmasseovervaagning/issues"
-    },
-    "homepage": "https://github.com/jonatanpedersen/stopmasseovervaagning#readme",
-    "dependencies": {
-        "babel-core": "^6.4.5",
-        "babel-preset-es2015-node": "^5.0.2",
-        "express": "^4.13.4",
-        "harp": "^0.20.1",
-        "github-api": "^0.11.2"
-    }
+  "name": "stopmasseovervaagning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonatanpedersen/stopmasseovervaagning.git"
+  },
+  "author": "Jonatan Pedersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonatanpedersen/stopmasseovervaagning/issues"
+  },
+  "homepage": "https://github.com/jonatanpedersen/stopmasseovervaagning#readme",
+  "dependencies": {
+    "babel-core": "^6.4.5",
+    "babel-preset-es2015-node": "^5.0.2",
+    "body-parser": "^1.14.2",
+    "cheerio": "^0.19.0",
+    "express": "^4.13.4",
+    "github-api": "^0.11.2",
+    "harp": "^0.20.1",
+    "request": "^2.69.0"
+  }
 }
