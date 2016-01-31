@@ -2,4 +2,12 @@
 
 .jumbotron {
   font-size: 2rem;
+  text-align: center;
+  .contribute-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+  }
 }
