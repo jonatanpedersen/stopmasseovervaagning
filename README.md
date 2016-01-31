@@ -1,5 +1,5 @@
-# stopovervaagningnu
-Regeringen ønsker at indføre massiv overvågning af internettet i terrorbekæmpelsens navn. Overvågning går i mod vores basale retsprincipper og vil af tekniske grunde aldrig have den ønskede virkning. Den øgede overvågning vil tilgengæld koste internetudbydere og forbrugere mange 100 millioner kr.
+# stopmasseovervaagning
+Regeringen ønsker at indføre masseovervågning af internettet i terrorbekæmpelsens navn. Overvågning går i mod vores basale retsprincipper og vil af tekniske grunde aldrig have den ønskede virkning. Den øgede overvågning vil tilgengæld koste internetudbydere og forbrugere mange 100 millioner kr.
 
 Formålet med stopovervaagningnu er at stoppe politikerne i at indføre masseovervågning af borgerne, samt at undervise borgerne i at beskytte sig mod overvågning på internettet generelt.
 
