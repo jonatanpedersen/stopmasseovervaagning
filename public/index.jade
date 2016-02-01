@@ -8,13 +8,13 @@ block main
 		.container
 			h1
 				span.ban
-					i(class="icon icon-ban") 
+					i(class="icon icon-ban")
 				span= title
-			p Regeringen ønsker at indføre masseovervågning af internettet i terrorbekæmpelsens navn. Masseovervågning går i mod vores basale retsprincipper og vil af tekniske grunde aldrig have den ønskede virkning. Den øgede overvågning vil til gengæld koste internetudbydere og forbrugere mange 100 millioner kr. 
+			p Regeringen ønsker at indføre masseovervågning af internettet i terrorbekæmpelsens navn. Masseovervågning går i mod vores basale retsprincipper og vil af tekniske grunde aldrig have den ønskede virkning. Den øgede overvågning vil til gengæld koste internetudbydere og forbrugere mange 100 millioner kr.
 			p.strong Hjælp med at stoppe regeringen nu!
 			p
-				a(href="https://github.com/jonatanpedersen/stopovervaagningnu",class="btn") 
-					i(class="icon icon-github") 
+				a(href="https://github.com/jonatanpedersen/stopovervaagningnu",class="btn")
+					i(class="icon icon-github")
 					| Bidrag med din ekspertise her
 	.section
 		.container
@@ -22,20 +22,10 @@ block main
 			p Se hvad pressen skriver om sagen nedenfor:
 			each article in public.data.articles._data
 				article.article
-					header 
+					header
 						a(href=article.url)
 							strong.title= article.title
-					= article.description			
-	.section
-		.container
-			form#form
-				h2 Indsend en artikel og få den vist i listen
-				p
-					label(for="url") Link
-					input(type="url",id="url",required)
-				p
-					button(type="submit") Indsend artikel
-
+					= article.description
 block append body
 	script(src="js/jquery-2.2.0.min.js")
 	script(src="index.js")
