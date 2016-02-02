@@ -20,12 +20,11 @@ block main
 		.container
 			h2 Artikler
 			p Se hvad pressen skriver om sagen nedenfor:
-			each article in public.data.articles._data
+			each article in articles
 				article.article
 					header
-						a(href=article.url)
+						a(href=article.link)
 							strong.title= article.title
-					= article.description
 block append body
 	script(src="js/jquery-2.2.0.min.js")
 	script(src="index.js")
