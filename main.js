@@ -30,7 +30,7 @@ export function main () {
   app.get('/', (req, res) => {
     try {
       var html = jade.renderFile('./public/index.jade', {
-        title: 'Stop Masseovervågning!',
+        title: 'Stop Masse-overvågning!',
         description: 'Stop masseovervågning af internettet i Danmark.',
         articles: articles.map(article => {
           article.fromNow = moment(article.date).fromNow();

@@ -14,18 +14,19 @@ block main
 			p
 				a(href="https://github.com/jonatanpedersen/stopovervaagningnu",class="btn btn-lg btn-primary")
 					i(class="icon icon-github")
-					|  Hjælp os med at udvikle hjemmesiden
+					|  Hjælp med hjemmesiden
 	.section
 		.container
 			h2 Artikler
-			p Se hvad pressen skriver om sagen nedenfor:
+			p 
+				mall.text-muted  Følg med i hvad dagspressen skriver om emnet...
 			each article in articles
 				article.card.card-block
 					h4.card-title= article.title
 					p.card-text
 						small.text-muted #{article.fromNow} via #{article.source}
 					p.card-text= article.description
-					a(href=article.link).btn.btn-primary Læs mere
+					a(href=article.url).btn.btn-primary Læs mere
 block append body
 	script(src="js/jquery-2.2.0.min.js")
 	script(src="index.js")
