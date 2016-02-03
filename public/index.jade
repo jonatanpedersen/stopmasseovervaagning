@@ -6,25 +6,26 @@ block append head
 block main
 	.jumbotron
 		.container
-			h1
-				span.ban
-					i(class="icon icon-ban")
-				span= title
-			p Regeringen ønsker at indføre masseovervågning af internettet i terrorbekæmpelsens navn. Masseovervågning går i mod vores basale retsprincipper og vil af tekniske årsager aldrig have den ønskede virkning. Den øgede overvågning vil til gengæld koste internetudbydere og forbrugere mange 100 millioner kr.
+			p 
+				img(src="logo-white-black.svg" width="512" height="512")
+			h1= title
+			p.lead Regeringen ønsker at indføre masseovervågning af internettet i terrorbekæmpelsens navn. Masseovervågning går i mod vores basale retsprincipper og vil af tekniske årsager aldrig have den ønskede virkning. Den øgede overvågning vil til gengæld koste internetudbydere og forbrugere mange 100 millioner kr.
 			p.strong Hjælp med at stoppe regeringen nu!
 			p
-				a(href="https://github.com/jonatanpedersen/stopovervaagningnu",class="btn")
+				a(href="https://github.com/jonatanpedersen/stopovervaagningnu",class="btn btn-lg btn-primary")
 					i(class="icon icon-github")
-					| Bidrag med din ekspertise her
+					|  Hjælp os med at udvikle hjemmesiden
 	.section
 		.container
 			h2 Artikler
 			p Se hvad pressen skriver om sagen nedenfor:
 			each article in articles
-				article.article
-					header
-						a(href=article.link)
-							strong.title= article.title
+				article.card.card-block
+					h4.card-title= article.title
+					p.card-text
+						small.text-muted #{article.fromNow} via #{article.source}
+					p.card-text= article.description
+					a(href=article.link).btn.btn-primary Læs mere
 block append body
 	script(src="js/jquery-2.2.0.min.js")
 	script(src="index.js")

@@ -4,6 +4,23 @@ import { createPostSubmitArticle } from './articles';
 import bodyParser from 'body-parser';
 import jade from 'jade';
 import { getPocketRssFeed } from './pocket';
+import articles from './data/articles';
+import moment from 'moment';
+import url from 'url';
+
+articles.sort(function(a, b) {
+    a = new Date(a.date);
+    b = new Date(b.date);
+    return a>b ? -1 : a<b ? 1 : 0;
+});
+
+articles.map(article => {
+  article.source = url.parse(article.url).hostname;
+
+  return article;
+});
+
+moment.locale('da');
 
 export function main () {
   let app = express();
@@ -11,15 +28,22 @@ export function main () {
   app.use(bodyParser.json());
 
   app.get('/', (req, res) => {
-    getPocketRssFeed((err, articles) => {
+    try {
       var html = jade.renderFile('./public/index.jade', {
         title: 'Stop Masseovervågning',
         description: 'Stop masseovervågning af internettet i Danmark.',
-        articles
+        articles: articles.map(article => {
+          article.fromNow = moment(article.date).fromNow();
+
+          return article;
+        })
       });
 
       res.send(html);
-    });
+    }
+    catch (err) {
+      res.send(err.stack);
+    }
   });
 
   app.post('/api/submit-article', createPostSubmitArticle());

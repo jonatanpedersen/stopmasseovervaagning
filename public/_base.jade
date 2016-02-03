@@ -10,12 +10,13 @@ html
 		block body
 			main.main
 				block main
-			nav.nav
+			nav.navbar.navbar-full.navbar-fixed-top.navbar-light.bg-white
 				.container
-					a(href="/")
-						i(class="icon icon-ban")
-						span  stop masseovervågning
-			footer.footer
+					a(href="/").navbar-brand
+						img(src="/logo-black-white.svg" width="32" height="32")
+					ul.nav.navbar-nav
+						li.nav-item
+							a(href="/").nav-link stop masseovervågning
+			footer.navbar.navbar-full.navbar-light.bg-white
 				.container
-					hr
-					p.copyright &copy; 2016 Stop Masseovervågning
+					p &copy; 2016 Stop Masseovervågning
