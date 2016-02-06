@@ -5,12 +5,12 @@ module.exports = {
 			replSet: {
 				ha: false,
 				ssl: true,
-				sslValidate: false
+				sslValidate: true
 			},
 			mongos: {
 				ssl: true,
-				sslValidate: false,
-				rejectUnauthorized: false
+				sslValidate: true,
+				rejectUnauthorized: true
 			}
 		}
 	}
