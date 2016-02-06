@@ -1,0 +1,60 @@
+extend _base
+
+block append head
+	link(href="underskriftindsamling.css",rel="stylesheet")
+
+block main
+	.section.header
+		.container
+			h1 Underskriftindsamling
+			p.lead Hjælp med at få politikerne på bedre tanker ved at tilkendegive dit ønske om at bevare retten til privatliv på internettet.
+	.section
+		.container
+			.row
+				.col-sm-6
+					h2 Underskriv
+					form.card.card-block
+						p.form-group
+							label(for="fornavn") Fornavn
+							input(id="fornavn",type="text").form-control
+						p.form-group
+							label(for="efternavn") Efternavn
+							input(id="efternavn",type="text").form-control
+						p.form-group
+							label(for="email") Email
+							input(id="email",type="email").form-control
+						p.form-group
+							label(for="offentligør")
+								input(id="offentligør",type="checkbox")
+								|  Offentligør
+						p.form-group
+							label(for="tilknyt_kommentar") Tilknyt kommentar
+							textarea(id="tilknyt_kommentar").form-control
+						p.form-group
+							button(type="submit").btn.btn-lg.btn-primary Skriv under
+				.col-sm-6
+					h2 Seneste kommentarer
+					.card.text-xs-center
+						.card-block
+							blockquote
+							p Stop volden eller jeg smadrer dig!
+							footer Jonatan Pedersen
+					.card.text-xs-center
+						.card-block
+							blockquote
+							p Stop volden eller jeg smadrer dig!
+							footer Jonatan Pedersen
+					.card.text-xs-center
+						.card-block
+							blockquote
+							p Stop volden eller jeg smadrer dig!
+							footer Jonatan Pedersen
+					.card.text-xs-center
+						.card-block
+							blockquote
+							p Stop volden eller jeg smadrer dig!
+							footer Jonatan Pedersen
+
+block append body
+	script(src="js/jquery-2.2.0.min.js")
+	script(src="underskriftindsamling.js")
