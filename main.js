@@ -8,6 +8,12 @@ import mongodb from 'mongodb';
 import { createConnectToMongoDB } from './createConnectToMongoDB';
 import { createGetArticles } from './createGetArticles';
 import { createIndexHttpHandler } from './createIndexHttpHandler';
+import {
+  createHandleSignPetitionHttpRequest,
+  createHandleGetPetitionSignatoryCountHttpRequest,
+  createSignPetition,
+  createGetPetitionSignatoryCount
+} from './underskriftindsamling';
 
 export async function main () {
   let app = express();
@@ -19,6 +25,18 @@ export async function main () {
   app.get('/', createIndexHttpHandler(jade, createGetArticles()));
   app.use('/', express.static(__dirname + "/public"));
   app.use('/', harp.mount(__dirname + "/public"));
+
+  app.post('/api/underskriftindsamling/underskriv', createHandleSignPetitionHttpRequest(createSignPetition(db)));
+  app.get('/api/underskriftindsamling/antal-underskrivere', createHandleGetPetitionSignatoryCountHttpRequest(createGetPetitionSignatoryCount(db)));
+
+  app.use((err, req,res,next) => {
+    if (err) {
+      console.error(err);
+      return res.status(500).json(err);
+    }
+
+    res.status(200).end();
+  });
 
   let port = process.env.PORT || 9000;
 

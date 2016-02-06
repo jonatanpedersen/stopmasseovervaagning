@@ -12,48 +12,35 @@ block main
 		.container
 			.row
 				.col-sm-6
-					h2 Underskriv
-					form.card.card-block
-						p.form-group
-							label(for="fornavn") Fornavn
-							input(id="fornavn",type="text").form-control
-						p.form-group
-							label(for="efternavn") Efternavn
-							input(id="efternavn",type="text").form-control
-						p.form-group
-							label(for="email") Email
-							input(id="email",type="email").form-control
-						p.form-group
-							label(for="offentligør")
-								input(id="offentligør",type="checkbox")
-								|  Offentligør
-						p.form-group
-							label(for="tilknyt_kommentar") Tilknyt kommentar
-							textarea(id="tilknyt_kommentar").form-control
-						p.form-group
-							button(type="submit").btn.btn-lg.btn-primary Skriv under
-				.col-sm-6
-					h2 Seneste kommentarer
-					.card.text-xs-center
-						.card-block
-							blockquote
-							p Stop volden eller jeg smadrer dig!
-							footer Jonatan Pedersen
-					.card.text-xs-center
-						.card-block
-							blockquote
-							p Stop volden eller jeg smadrer dig!
-							footer Jonatan Pedersen
-					.card.text-xs-center
-						.card-block
-							blockquote
-							p Stop volden eller jeg smadrer dig!
-							footer Jonatan Pedersen
-					.card.text-xs-center
-						.card-block
-							blockquote
-							p Stop volden eller jeg smadrer dig!
-							footer Jonatan Pedersen
+					.card.card-block
+						form#formular
+							p.form-group
+								label(for="fornavn") Fornavn
+								input(id="fornavn",type="text",required).form-control
+							p.form-group
+								label(for="efternavn") Efternavn
+								input(id="efternavn",type="text",required).form-control
+							p.form-group
+								label(for="email") Email
+								input(id="email",type="email",required).form-control
+							p
+								small Bare rolig! Vi offentligører aldrig dine personlige oplysninger, herunder dit navn og din email, uden din udtrykkelige accept.
+							p.form-group
+								button(type="submit").btn.btn-lg.btn-primary Underskriv
+						#arbejder.hidden.text-xs-center 
+							h2 Arbejder...
+							p Vi arbejder på at registrere din underskrift.
+						#fejl.hidden.text-xs-center 
+							h2 Øv!
+							p Der skete desværre en fejl:
+							p#fejl-besked
+							p
+								button#proev-igen.btn.btn-primary Ret fejlen, og prøv igen
+						#tak.hidden.text-xs-center 
+							h2 Tak!
+							p Vi har registreret din underskrift, og takker for din hjælp i kampen mod unødvendig masseovervågning.
+							p
+								a(href="/").btn.btn-primary Vent tilbage til forsiden
 
 block append body
 	script(src="js/jquery-2.2.0.min.js")
