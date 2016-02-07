@@ -1,15 +1,15 @@
 'use strict';
-import Github from 'github-api';
 import request from 'request';
 import cheerio from 'cheerio';
+import Github from 'github-api';
 
 let github = new Github({
-	token: process.env.GITHUB_TOKEN,
+	token: cnf.github.token,
 	auth: "oauth"
 });
 
-export function createPostSubmitArticle () {
-	return (req, res) => {
+export function createHandleSubmitArticleHttpRequest () {
+	return async function handleSubmitArticleHttpRequest (req, res, next) => {
 		var url = req.body.url;
 
 		request(url, function(err, response, html){

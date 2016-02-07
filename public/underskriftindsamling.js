@@ -21,8 +21,8 @@ $('#formular').submit(function(e) {
 	    type: 'POST',
 	    url: '/api/underskriftindsamling/underskriv',
 	    data: JSON.stringify({
-				fornavn: fornavn,
-				efternavn: efternavn,
+				firstName: fornavn,
+				lastName: efternavn,
 				email: email
 			}),
 	    contentType: "application/json; charset=utf-8",

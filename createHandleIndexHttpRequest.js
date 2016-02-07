@@ -1,5 +1,5 @@
-export function createIndexHttpHandler (jade, getArticles) {
-	return async function indexHttpHandler (req, res) {
+export function createHandleIndexHttpRequest (jade, getArticles) {
+	return async function handleIndexHttpRequest (req, res, next) {
 		try {
 			var html = jade.renderFile('./public/index.jade', {
 				title: 'Stop Masse-overvågning!',
@@ -10,7 +10,7 @@ export function createIndexHttpHandler (jade, getArticles) {
 			res.send(html);
 		}
 		catch (err) {
-			res.send(err.stack);
+			return next(err);
 		}
 	};
 }

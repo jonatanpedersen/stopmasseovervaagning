@@ -1,7 +1,7 @@
 export function createHandleSignPetitionHttpRequest (signPetition) {
 	return async function handleSignPetitionHttpRequest (req, res, next) {
 		try {
-			await signPetition(req.body.fornavn, req.body.efternavn, req.body.email);
+			await signPetition(req.body.firstName, req.body.lastName, req.body.email);
 
 			res.status(204).end();
 		} catch (err) {
@@ -11,13 +11,13 @@ export function createHandleSignPetitionHttpRequest (signPetition) {
 }
 
 export function createHandleGetPetitionSignatoryCountHttpRequest (getPetitionSignatoryCount) {
-	return async function handleGetPetitionSignatoryCountHttpRequest(req, res) {
+	return async function handleGetPetitionSignatoryCountHttpRequest(req, res, next) {
 		try {
 			let petitionSignatoryCount = await getPetitionSignatoryCount();
 
 			res.json(petitionSignatoryCount);
 		} catch (err) {
-			res.end();
+			return next(err);
 		}
 	};
 }
@@ -26,11 +26,11 @@ export function createSignPetition (db) {
 	return async function signPetition (fornavn, efternavn, email) {
 		return new Promise((resolve, reject) => {
 			if (!/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i.test(email)) {
-				return reject('Ugyldig email');
+				return reject('Invalid email');
 			}
 
-			return db.collection('underskrifter').insert(
-				{ fornavn, efternavn, email },
+			return db.collection('signatures').insert(
+				{ firstName, lastName, email },
 				(err, file) => {
 					if (err) {
 						return reject(err);

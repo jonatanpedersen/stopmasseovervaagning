@@ -1,0 +1,10 @@
+extend _base
+
+block append head
+	link(href="/politiker.css",rel="stylesheet")
+
+block main
+	.section.header
+		.container
+			h1= title
+			p.lead= description
