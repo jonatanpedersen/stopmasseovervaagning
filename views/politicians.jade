@@ -11,7 +11,9 @@ block main
 	.section
 		.container
 			.row
-				each politican in politicians
+				each politician in politicians
 					.col-xs-6.col-sm-4.col-lg-3
-						a(href="/politikere/" + politican.id).card
-							img(src="/img/" + politican.id + ".jpg").card-img-top.img-fluid
+						a(href="/politikere/" + politician.id).card
+							img(src="/img/" + politician.id + ".jpg").card-img-top.img-fluid
+							.card-block
+								p.card-text= politician.name

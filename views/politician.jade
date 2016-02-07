@@ -1,0 +1,31 @@
+extend _base
+
+block append head
+	link(href="/politiker.css",rel="stylesheet")
+
+block main
+	.section
+		.container
+			.row
+				.col-sm-9
+					h1.card-title= politician.name
+					p.card-text= politician.profile.text
+					each tweet in tweets
+						article.card.card-block
+							p.card-text= tweet.data.text
+							p.card-text
+								small #{moment(tweet.data.created_at).fromNow()}
+				.col-sm-3
+					.card
+						img(src="/img/" + politician.id + ".jpg").card-img-top.img-fluid
+						ul.list-group.list-group-flush
+							if politician.twitter
+								li.list-group-item 
+									a(href="https://twitter.com/"+ politician.twitter)
+										span @
+										span= politician.twitter
+							if politician.phone
+								li.list-group-item= politician.phone
+							if politician.email
+								li.list-group-item 
+									a(href="mailto:"+ politician.email)= politician.email

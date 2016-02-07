@@ -1,13 +1,11 @@
-export function createHandleGetPoliticiansHttpRequest (jade, getPoliticians) {
+export function createHandleGetPoliticiansHttpRequest (getPoliticians) {
 	return async function handleGetPoliticiansHttpRequest(req, res, next) {
 		try {
-			var html = jade.renderFile('./public/politikere.jade', {
+			res.render('politicians.jade', {
 				title: 'Politikere',
 				description: 'Oversigt over danske politikere.',
 				politicians: await getPoliticians()
 			});
-
-			return res.send(html);
 		}
 		catch (err) {
 			return next(err);

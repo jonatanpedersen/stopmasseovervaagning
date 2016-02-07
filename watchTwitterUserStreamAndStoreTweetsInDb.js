@@ -1,27 +1,37 @@
+import async from 'async';
 
 export function watchTwitterUserStreamAndStoreTweetsInDb (twit, db) {
-	console.log('watchTwitterUserStreamAndStoreTweetsInDb');
+	twit.get('statuses/home_timeline', { count: 10 }, function(err, data, response) {
+		async.eachSeries(data, async (tweet, callback) => {
+			try {
+				await storeTweetInDb(tweet, db);
+				return callback();
+			} catch (err) {
+				return callback(err);
+			}
+		}, (err) => {
+			if (err) {
+				console.error('Error', err);
+			}
+		});
+	});
+
 	var stream = twit.stream('user')
 
 	stream.on('tweet', async (tweet) => {
 		try {
-			let result = await storeTweetInDb(tweet, db);
-			console.log(result);
-
-			return result;
+			return await storeTweetInDb(tweet, db);
 		}
 		catch (err) {
 			console.error('Error', err);
 		}
 	});
 }
-user-actions-follow-button js-follow-btn follow-button btn small small-follow-btn
-user-actions-follow-button js-follow-btn follow-button btn small small-follow-btn
 
-function storeTweetInDb (tweet, db) {
+async function storeTweetInDb (tweet, db) {
 	return new Promise((resolve, reject) => {
-		return db.collection('tweets').insert(
-			tweet,
+		return db.collection('tweets').save(
+			{_id: tweet.id_str, data: tweet },
 			(err) => {
 				if (err) {
 					return reject(err);

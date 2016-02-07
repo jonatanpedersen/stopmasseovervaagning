@@ -6,53 +6,54 @@ import jade from 'jade';
 import moment from 'moment';
 import mongodb from 'mongodb';
 import Twit from 'twit';
-import { watchTwitterUserStreamAndStoreTweetsInDb } from './watchTwitterUserStreamAndStoreTweetsInDb';
-import { createConnectToMongoDB } from './createConnectToMongoDB';
-import { createGetArticles } from './createGetArticles';
-import { createHandleIndexHttpRequest } from './createHandleIndexHttpRequest';
-import {
-  createHandleSignPetitionHttpRequest,
-  createHandleGetPetitionSignatoryCountHttpRequest,
-  createSignPetition,
-  createGetPetitionSignatoryCount
-} from './petition';
-
-import { createHandleGetPoliticiansHttpRequest } from './createHandleGetPoliticiansHttpRequest';
-import { createHandleGetPoliticianByIdHttpRequest } from './createHandleGetPoliticianByIdHttpRequest';
-import { createGetPoliticians } from './createGetPoliticians';
-import { createGetPoliticianById } from './createGetPoliticianById';
 
 import articles from './data/articles.json';
+import { createConnectToMongoDB } from './createConnectToMongoDB';
+import { createGetArticles } from './createGetArticles';
+import { createGetPetitionSignatoryCount } from './petition';
+import { createGetPoliticians } from './createGetPoliticians';
+import { createGetPoliticianById } from './createGetPoliticianById';
+import { createGetTweetsByTwitterUserScreenName } from './createGetTweetsByTwitterUserScreenName';
+import { createHandleGetPetitionHttpRequest} from './createHandleGetPetitionHttpRequest'
+import { createHandleGetPetitionSignatoryCountHttpRequest } from './petition';
+import { createHandleGetPoliticianByIdHttpRequest } from './createHandleGetPoliticianByIdHttpRequest';
+import { createHandleGetPoliticiansHttpRequest } from './createHandleGetPoliticiansHttpRequest';
+import { createHandleIndexHttpRequest } from './createHandleIndexHttpRequest';
+import { createHandleSignPetitionHttpRequest } from './petition';
+import { createSignPetition } from './petition';
 import politicians from './data/politicians.json';
+import { watchTwitterUserStreamAndStoreTweetsInDb } from './watchTwitterUserStreamAndStoreTweetsInDb';
 
 export async function main () {
   try {
-    let app = express();
-
-    var twit = new Twit(cnf.twitter);
-
     let connectToMongoDB = createConnectToMongoDB(mongodb);
     let db = await connectToMongoDB(cnf.mongo.connection);
 
+    let twit = new Twit(cnf.twitter);
     watchTwitterUserStreamAndStoreTweetsInDb(twit, db);
+
+    moment.locale('da');
+
+    let app = express();
+    app.locals.moment = moment;
+    app.use(bodyParser.json());
 
     let getArticles = createGetArticles(articles);
     let getPoliticians = createGetPoliticians(politicians);
     let getPoliticianById = createGetPoliticianById(politicians);
+    let getTweetsByTwitterUserScreenName = createGetTweetsByTwitterUserScreenName(db);
 
-    let handleGetPoliticiansHttpRequest = createHandleGetPoliticiansHttpRequest(jade, getPoliticians);
-    let handleGetPoliticianByIdHttpRequest = createHandleGetPoliticianByIdHttpRequest(jade, getPoliticianById);
-    let handleIndexHttpRequest = createHandleIndexHttpRequest(jade, getArticles);
+    let handleGetPetitionHttpRequest = createHandleGetPetitionHttpRequest();
+    let handleGetPoliticiansHttpRequest = createHandleGetPoliticiansHttpRequest(getPoliticians);
+    let handleGetPoliticianByIdHttpRequest = createHandleGetPoliticianByIdHttpRequest(getPoliticianById, getTweetsByTwitterUserScreenName);
+    let handleIndexHttpRequest = createHandleIndexHttpRequest(getArticles);
 
-    moment.locale('da');
-    app.use(bodyParser.json());
     app.get('/', handleIndexHttpRequest);
+    app.get('/underskriftindsamling', handleGetPetitionHttpRequest);
     app.get('/politikere', handleGetPoliticiansHttpRequest);
     app.get('/politikere/:politicianId', handleGetPoliticianByIdHttpRequest);
-
     app.use('/', express.static(__dirname + "/public"));
     app.use('/', harp.mount(__dirname + "/public"));
-
     app.post('/api/underskriftindsamling/underskriv', createHandleSignPetitionHttpRequest(createSignPetition(db)));
     app.get('/api/underskriftindsamling/antal-underskrivere', createHandleGetPetitionSignatoryCountHttpRequest(createGetPetitionSignatoryCount(db)));
 

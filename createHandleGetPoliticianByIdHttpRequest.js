@@ -1,15 +1,20 @@
-export function createHandleGetPoliticianByIdHttpRequest (jade, getPoliticianById) {
+export function createHandleGetPoliticianByIdHttpRequest (getPoliticianById, getTweetsByTwitterUserScreenName) {
 	return async function handleGetPoliticianByIdHttpRequest(req, res, next) {
 		try {
 			let politician = await getPoliticianById(req.params.politicianId)
+			let tweets = [];
 
-			var html = jade.renderFile('./public/politiker.jade', {
+			if (politician.twitter) {
+				tweets = await getTweetsByTwitterUserScreenName(politician.twitter);
+				console.log(tweets);
+			};
+
+			res.render('politician.jade', {
 				title: politician.name,
 				description: politician.profile.text,
-				politician: politician
+				politician: politician,
+				tweets: tweets
 			});
-
-			res.send(html);
 		}
 		catch (err) {
 			return next(err);

@@ -23,14 +23,14 @@ export function createHandleGetPetitionSignatoryCountHttpRequest (getPetitionSig
 }
 
 export function createSignPetition (db) {
-	return async function signPetition (fornavn, efternavn, email) {
+	return async function signPetition (firstName, lastName, email) {
 		return new Promise((resolve, reject) => {
 			if (!/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i.test(email)) {
 				return reject('Invalid email');
 			}
 
 			return db.collection('signatures').insert(
-				{ firstName, lastName, email },
+				{ data: { firstName, lastName, email } },
 				(err, file) => {
 					if (err) {
 						return reject(err);
