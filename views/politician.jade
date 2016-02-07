@@ -22,7 +22,7 @@ block main
 								li.list-group-item 
 									a(href="mailto:"+ politician.email)= politician.email
 				.col-sm-9
-					h1.card-title= politician.name					
+					h1.card-title= politician.fullName					
 					each line in politician.text
 						p.card-text= line
 					each tweet in tweets
