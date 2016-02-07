@@ -1,7 +1,7 @@
 import async from 'async';
 
 export function watchTwitterUserStreamAndStoreTweetsInDb (twit, db) {
-	twit.get('statuses/home_timeline', { count: 10 }, function(err, data, response) {
+	twit.get('statuses/home_timeline', { count: 200 }, function(err, data, response) {
 		async.eachSeries(data, async (tweet, callback) => {
 			try {
 				await storeTweetInDb(tweet, db);
