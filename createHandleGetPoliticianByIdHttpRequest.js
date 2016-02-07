@@ -6,12 +6,11 @@ export function createHandleGetPoliticianByIdHttpRequest (getPoliticianById, get
 
 			if (politician.twitter) {
 				tweets = await getTweetsByTwitterUserScreenName(politician.twitter);
-				console.log(tweets);
 			};
 
 			res.render('politician.jade', {
 				title: politician.name,
-				description: politician.profile.text,
+				description: politician.text.join(' \n'),
 				politician: politician,
 				tweets: tweets
 			});

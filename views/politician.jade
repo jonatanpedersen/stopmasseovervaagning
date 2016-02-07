@@ -7,17 +7,9 @@ block main
 	.section
 		.container
 			.row
-				.col-sm-9
-					h1.card-title= politician.name
-					p.card-text= politician.profile.text
-					each tweet in tweets
-						article.card.card-block
-							p.card-text= tweet.data.text
-							p.card-text
-								small #{moment(tweet.data.created_at).fromNow()}
 				.col-sm-3
 					.card
-						img(src="/img/" + politician.id + ".jpg").card-img-top.img-fluid
+						img(src="/img/" + politician.id + ".jpg").card-img-top.img-fluid.center-block
 						ul.list-group.list-group-flush
 							if politician.twitter
 								li.list-group-item 
@@ -29,3 +21,12 @@ block main
 							if politician.email
 								li.list-group-item 
 									a(href="mailto:"+ politician.email)= politician.email
+				.col-sm-9
+					h1.card-title= politician.name					
+					each line in politician.text
+						p.card-text= line
+					each tweet in tweets
+						article.card.card-block
+							p.card-text= tweet.data.text
+							p.card-text
+								small #{moment(tweet.data.created_at).fromNow()}

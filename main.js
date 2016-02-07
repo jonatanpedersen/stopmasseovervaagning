@@ -29,8 +29,8 @@ export async function main () {
     let connectToMongoDB = createConnectToMongoDB(mongodb);
     let db = await connectToMongoDB(cnf.mongo.connection);
 
-    let twit = new Twit(cnf.twitter);
-    watchTwitterUserStreamAndStoreTweetsInDb(twit, db);
+    //let twit = new Twit(cnf.twitter);
+    //watchTwitterUserStreamAndStoreTweetsInDb(twit, db);
 
     moment.locale('da');
 
@@ -52,8 +52,11 @@ export async function main () {
     app.get('/underskriftindsamling', handleGetPetitionHttpRequest);
     app.get('/politikere', handleGetPoliticiansHttpRequest);
     app.get('/politikere/:politicianId', handleGetPoliticianByIdHttpRequest);
+    app.use('/lib', express.static(__dirname + "/node_modules/bootstrap/dist/js"));
+    app.use('/lib', express.static(__dirname + "/node_modules/jquery/dist"));
     app.use('/', express.static(__dirname + "/public"));
     app.use('/', harp.mount(__dirname + "/public"));
+
     app.post('/api/underskriftindsamling/underskriv', createHandleSignPetitionHttpRequest(createSignPetition(db)));
     app.get('/api/underskriftindsamling/antal-underskrivere', createHandleGetPetitionSignatoryCountHttpRequest(createGetPetitionSignatoryCount(db)));
 

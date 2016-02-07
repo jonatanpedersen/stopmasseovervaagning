@@ -1,0 +1,246 @@
+[
+    {
+        "id": "alternativet",
+        "members": [
+            "uffe-elbaek",
+            "torsten-gejl",
+            "josephine-fock",
+            "christian-poll",
+            "ulla-sandbaek",
+            "rasmus-nordqvist",
+            "carolina-magdalene-maier",
+            "rene-gade",
+            "nikolaj-amstrup"
+        ]
+    },
+    {
+        "id": "dansk-folkeparti",
+        "members": [
+            "pia-adelsteen",
+            "karina-adsbol",
+            "alex-ahrendtsen",
+            "liselott-blixt",
+            "henrik-urban-brodersen",
+            "bent-bogsted",
+            "rene-christensen",
+            "kim-christiansen",
+            "jens-henrik-thulesen-dahl",
+            "kristian-thulesen-dahl",
+            "mette-hjermind-dencker",
+            "mikkel-dencker",
+            "soren-espersen",
+            "dennis-flydtkjaer",
+            "marlene-harpsoe",
+            "martin-henriksen",
+            "pia-kjaersgaard",
+            "marie-krarup",
+            "merete-dea-larsen",
+            "christian-langballe",
+            "morten-marinus",
+            "karin-nodgaard",
+            "hans-kristian-skibby",
+            "peter-skaarup",
+            "tilde-bork",
+            "susanne-eilersen",
+            "kenneth-kristensen-berth",
+            "ib-poulsen",
+            "lise-bech",
+            "pernille-bendixen",
+            "peter-kofod-poulsen",
+            "jan-rytkjaer-callesen",
+            "dorthe-ullemose",
+            "karina-due",
+            "jan-erik-messmann",
+            "claus-kvist-hansen",
+            "jeppe-jakobsen-1988"
+        ]
+    },
+    {
+        "id": "det-konservative folkeparti",
+        "members": [
+            "naser-khader",
+            "mai-mercado",
+            "brian-mikkelsen",
+            "rasmus-jarlov",
+            "soren-pape-poulsen",
+            "mette-abildgaard"
+        ]
+    },
+    {
+        "id": "enhedslisten",
+        "members": [
+            "stine-brix",
+            "henning-hyllested",
+            "christian-juhl",
+            "johanne-schmidt-nielsen",
+            "pernille-skipper",
+            "finn-sorensen",
+            "nikolaj-villumsen",
+            "soren-bo-sondergaard",
+            "rune-lund",
+            "maria-reumert-gjerding",
+            "soren-egge-rasmussen",
+            "eva-flyvholm",
+            "pelle-dragsted",
+            "jakob-solvhoj"
+        ]
+    },
+    {
+        "id": "inuit-ataqatigiit",
+        "members": [
+            "aaja-chemnitz-larsen"
+        ]
+    },
+    {
+        "id": "javnaðarflokkurin",
+        "members": [
+            "sjurdur-skaale"
+        ]
+    },
+    {
+        "id": "liberal-alliance",
+        "members": [
+            "simon-emil-ammitzboll",
+            "mette-bock",
+            "villum-christensen",
+            "laura-lindahl",
+            "leif-mikkelsen",
+            "ole-birk-olesen",
+            "joachim-b-olsen",
+            "merete-riisager",
+            "anders-samuelsen",
+            "christina-egelund",
+            "henrik-dahl",
+            "may-britt-buch-kattrup",
+            "carsten-bach"
+        ]
+    },
+    {
+        "id": "radikale-venstre",
+        "members": [
+            "marianne-jelved",
+            "martin-lidegaard",
+            "sofie-carsten-nielsen",
+            "lotte-rod",
+            "andreas-steenberg",
+            "morten-ostergaard",
+            "ida-auken",
+            "emrah-tuncer"
+        ]
+    },
+    {
+        "id": "siumut",
+        "members": [
+            "aleqa-hammond"
+        ]
+    },
+    {
+        "id": "socialdemokraterne",
+        "members": [
+            "yildiz-akdogan",
+            "christine-antorini",
+            "trine-bramsen",
+            "jeppe-bruus",
+            "morten-bodskov",
+            "lennart-damsbo-andersen",
+            "benny-engelbrecht",
+            "mette-frederiksen",
+            "mette-gjerskov",
+            "karin-gaardsted",
+            "orla-hav",
+            "magnus-heunicke",
+            "per-husted",
+            "ole-haekkerup",
+            "leif-lahn-jensen",
+            "mogens-jensen",
+            "jens-joel",
+            "jan-johansen",
+            "dan-jorgensen",
+            "karen-johanne-klint",
+            "simon-kollerup",
+            "henrik-dam-kristensen",
+            "rasmus-horn-langhoff",
+            "henrik-sass-larsen",
+            "bjarne-laustsen",
+            "annette-lind",
+            "flemming-moller-mortensen",
+            "maja-panduro",
+            "jesper-petersen",
+            "rasmus-prehn",
+            "troels-ravn",
+            "mette-reissmann",
+            "pernille-rosenkrantz-theil",
+            "julie-skovsby",
+            "helle-thorning-schmidt",
+            "nicolai-wammen",
+            "peter-hummelgaard",
+            "lea-wermelin",
+            "mattias-tesfaye",
+            "daniel-toft-jakobsen",
+            "christian-rabjerg-madsen",
+            "pernille-schnoor",
+            "erik-christensen",
+            "kasper-roug",
+            "malte-larsen",
+            "malou-lunderod",
+            "anne-paulin"
+        ]
+    },
+    {
+        "id": "socialistisk-folkeparti",
+        "members": [
+            "jonas-dahl",
+            "pia-olsen-dyhr",
+            "karsten-honge",
+            "holger-k-nielsen",
+            "lisbeth-bech-poulsen",
+            "jacob-mark",
+            "trine-torp"
+        ]
+    },
+    {
+        "id": "tjóðveldi",
+        "members": [
+            "magni-arge"
+        ]
+    },
+    {
+        "id": "venstre",
+        "members": [
+            "hans-nicolai-andersen",
+            "erling-bonnesen",
+            "thomas-danielsen",
+            "louise-schack-elholm",
+            "karen-ellemann",
+            "jakob-ellemann-jensen",
+            "claus-hjort-frederiksen",
+            "eva-kjer-hansen",
+            "jane-heitmann",
+            "preben-bang-henriksen",
+            "bertel-haarder",
+            "jacob-jensen",
+            "kristian-jensen",
+            "michael-aastrup-jensen",
+            "peter-juel-jensen",
+            "jan-ejnar-jorgensen",
+            "esben-lunde-larsen",
+            "karsten-styrbaek-lauritzen",
+            "lars-christian-lilleholt",
+            "kristian-pihl-lorentzen",
+            "sophie-lohde",
+            "anni-holm-matthiesen",
+            "ellen-trane-norby",
+            "torsten-schack-pedersen",
+            "soren-pind",
+            "troels-lund-poulsen",
+            "lars-lokke-rasmussen",
+            "hans-christian-schmidt",
+            "inger-stojberg",
+            "hans-christian-thoning",
+            "morten-lokkegaard",
+            "marcus-knuth",
+            "soren-gade",
+            "britt-bager"
+        ]
+    }
+]
