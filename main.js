@@ -5,42 +5,73 @@ import harp from 'harp';
 import jade from 'jade';
 import moment from 'moment';
 import mongodb from 'mongodb';
+import Twit from 'twit';
+
+import articles from './data/articles.json';
 import { createConnectToMongoDB } from './createConnectToMongoDB';
 import { createGetArticles } from './createGetArticles';
-import { createIndexHttpHandler } from './createIndexHttpHandler';
-import {
-  createHandleSignPetitionHttpRequest,
-  createHandleGetPetitionSignatoryCountHttpRequest,
-  createSignPetition,
-  createGetPetitionSignatoryCount
-} from './underskriftindsamling';
+import { createGetPetitionSignatoryCount } from './petition';
+import { createGetPoliticians } from './createGetPoliticians';
+import { createGetPoliticianById } from './createGetPoliticianById';
+import { createGetTweetsByTwitterUserScreenName } from './createGetTweetsByTwitterUserScreenName';
+import { createHandleGetPetitionHttpRequest} from './createHandleGetPetitionHttpRequest'
+import { createHandleGetPetitionSignatoryCountHttpRequest } from './petition';
+import { createHandleGetPoliticianByIdHttpRequest } from './createHandleGetPoliticianByIdHttpRequest';
+import { createHandleGetPoliticiansHttpRequest } from './createHandleGetPoliticiansHttpRequest';
+import { createHandleIndexHttpRequest } from './createHandleIndexHttpRequest';
+import { createHandleSignPetitionHttpRequest } from './petition';
+import { createSignPetition } from './petition';
+import politicians from './data/politicians.json';
+import { watchTwitterUserStreamAndStoreTweetsInDb } from './watchTwitterUserStreamAndStoreTweetsInDb';
 
 export async function main () {
-  let app = express();
-  let connectToMongoDB = createConnectToMongoDB(mongodb);
-  let db = await connectToMongoDB(cnf.mongo.connection);
+  try {
+    let connectToMongoDB = createConnectToMongoDB(mongodb);
+    let db = await connectToMongoDB(cnf.mongo.connection);
 
-  moment.locale('da');
-  app.use(bodyParser.json());
-  app.get('/', createIndexHttpHandler(jade, createGetArticles()));
-  app.use('/', express.static(__dirname + "/public"));
-  app.use('/', harp.mount(__dirname + "/public"));
+    let twit = new Twit(cnf.twitter);
+    watchTwitterUserStreamAndStoreTweetsInDb(twit, db);
 
-  app.post('/api/underskriftindsamling/underskriv', createHandleSignPetitionHttpRequest(createSignPetition(db)));
-  app.get('/api/underskriftindsamling/antal-underskrivere', createHandleGetPetitionSignatoryCountHttpRequest(createGetPetitionSignatoryCount(db)));
+    moment.locale('da');
 
-  app.use((err, req,res,next) => {
-    if (err) {
-      console.error(err);
-      return res.status(500).json(err);
-    }
+    let app = express();
+    app.locals.moment = moment;
+    app.use(bodyParser.json());
 
-    res.status(200).end();
-  });
+    let getArticles = createGetArticles(articles);
+    let getPoliticians = createGetPoliticians(politicians);
+    let getPoliticianById = createGetPoliticianById(politicians);
+    let getTweetsByTwitterUserScreenName = createGetTweetsByTwitterUserScreenName(db);
 
-  let port = process.env.PORT || 9000;
+    let handleGetPetitionHttpRequest = createHandleGetPetitionHttpRequest();
+    let handleGetPoliticiansHttpRequest = createHandleGetPoliticiansHttpRequest(getPoliticians);
+    let handleGetPoliticianByIdHttpRequest = createHandleGetPoliticianByIdHttpRequest(getPoliticianById, getTweetsByTwitterUserScreenName);
+    let handleIndexHttpRequest = createHandleIndexHttpRequest(getArticles);
 
-  app.listen(port, () => {
-    console.log(`Listening on port ${port}`);
-  });
+    app.get('/', handleIndexHttpRequest);
+    app.get('/underskriftindsamling', handleGetPetitionHttpRequest);
+    app.get('/politikere', handleGetPoliticiansHttpRequest);
+    app.get('/politikere/:politicianId', handleGetPoliticianByIdHttpRequest);
+    app.use('/', express.static(__dirname + "/public"));
+    app.use('/', harp.mount(__dirname + "/public"));
+    app.post('/api/underskriftindsamling/underskriv', createHandleSignPetitionHttpRequest(createSignPetition(db)));
+    app.get('/api/underskriftindsamling/antal-underskrivere', createHandleGetPetitionSignatoryCountHttpRequest(createGetPetitionSignatoryCount(db)));
+
+    app.use((err, req,res,next) => {
+      if (err) {
+        console.error(err);
+        return res.status(500).json(err);
+      }
+
+      res.status(200).end();
+    });
+
+    let port = process.env.PORT || 9000;
+
+    app.listen(port, () => {
+      console.log(`Listening on port ${port}`);
+    });
+  } catch (err) {
+    console.err(err);
+  }
 }
