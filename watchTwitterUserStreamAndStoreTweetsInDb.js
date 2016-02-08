@@ -23,8 +23,12 @@ export function watchTwitterUserStreamAndStoreTweetsInDb (twit, db) {
 			return await storeTweetInDb(tweet, db);
 		}
 		catch (err) {
-			console.error('Error', err);
+			console.error('Twit Error 1', err);
 		}
+	});
+
+	stream.on('error', async (err) => {
+		console.error('Twit Error 2', err);
 	});
 }
 

@@ -28,10 +28,11 @@ block main
 					h1.card-title= politician.fullName					
 					each line in politician.text
 						p.card-text= line
-					each tweet in tweets
-						article.card.card-block
-							p.card-text= tweet.text
-							p.card-text
-							small 
-								span #{moment(tweet.created_at).fromNow()}
-								span  via Twitter
+					if tweets
+						each tweet in tweets
+							article.card.card-block
+								p.card-text= tweet.text
+								p.card-text
+								small 
+									span #{moment(tweet.created_at).fromNow()}
+									span  via Twitter
