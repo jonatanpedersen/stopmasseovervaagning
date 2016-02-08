@@ -55,9 +55,19 @@
 }
 
 .main, .section {
-  padding-top: 3rem;
+  padding: 4rem 0;
 }
 
 .hidden {
   display: none;
+}
+
+.section.alt {
+  background-color: #eee;
+}
+
+.img-placeholder {
+  width: 9rem;
+  height: 9rem;
+  background-color: #ccc;
 }

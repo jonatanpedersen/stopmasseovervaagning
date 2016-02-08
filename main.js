@@ -15,6 +15,7 @@ import { createGetPoliticalParties } from './createGetPoliticalParties';
 import { createGetPoliticalPartyById } from './createGetPoliticalPartyById';
 import { createGetPoliticians } from './createGetPoliticians';
 import { createGetPoliticianById } from './createGetPoliticianById';
+import { createGetPoliticiansByPoliticalPartyId } from './createGetPoliticiansByPoliticalPartyId';
 import { createGetTweetsByTwitterUserScreenName } from './createGetTweetsByTwitterUserScreenName';
 import { createHandleError } from './createHandleError';
 import { createHandleGetPetitionHttpRequest} from './createHandleGetPetitionHttpRequest'
@@ -49,12 +50,13 @@ export async function main () {
     let getPoliticalPartyById = createGetPoliticalPartyById(politicalParties);
     let getPoliticians = createGetPoliticians(politicians);
     let getPoliticianById = createGetPoliticianById(politicians);
+    let getPoliticiansByPoliticalPartyById = createGetPoliticiansByPoliticalPartyId(politicians);
     let getTweetsByTwitterUserScreenName = createGetTweetsByTwitterUserScreenName(db);
     let handleGetPetitionHttpRequest = createHandleGetPetitionHttpRequest();
     let handleGetPoliticalPartiesHttpRequest = createHandleGetPoliticalPartiesHttpRequest(getPoliticalParties);
-    let handleGetPoliticalPartyByIdHttpRequest = createHandleGetPoliticalPartyByIdHttpRequest(getPoliticalPartyById);
+    let handleGetPoliticalPartyByIdHttpRequest = createHandleGetPoliticalPartyByIdHttpRequest(getPoliticalPartyById, getPoliticiansByPoliticalPartyById, getTweetsByTwitterUserScreenName);
     let handleGetPoliticiansHttpRequest = createHandleGetPoliticiansHttpRequest(getPoliticians);
-    let handleGetPoliticianByIdHttpRequest = createHandleGetPoliticianByIdHttpRequest(getPoliticianById, getTweetsByTwitterUserScreenName);
+    let handleGetPoliticianByIdHttpRequest = createHandleGetPoliticianByIdHttpRequest(getPoliticianById, getPoliticalPartyById, getTweetsByTwitterUserScreenName);
     let handleIndexHttpRequest = createHandleIndexHttpRequest(getArticles);
 
     app.get('/', handleIndexHttpRequest);

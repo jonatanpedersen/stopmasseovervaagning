@@ -16,6 +16,9 @@ block main
 									a(href="https://twitter.com/"+ politician.twitter)
 										span @
 										span= politician.twitter
+							if politicalParty
+								li.list-group-item
+									a(href="/politiske-partier/" + politicalParty.id)= politicalParty.name
 							if politician.phone
 								li.list-group-item= politician.phone
 							if politician.email

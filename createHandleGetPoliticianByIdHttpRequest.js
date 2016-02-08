@@ -1,7 +1,8 @@
-export function createHandleGetPoliticianByIdHttpRequest (getPoliticianById, getTweetsByTwitterUserScreenName) {
+export function createHandleGetPoliticianByIdHttpRequest (getPoliticianById, getPoliticalPartyById, getTweetsByTwitterUserScreenName) {
 	return async function handleGetPoliticianByIdHttpRequest(req, res, next) {
 		try {
-			let politician = await getPoliticianById(req.params.politicianId)
+			let politician = await getPoliticianById(req.params.politicianId);
+			let politicalParty = await getPoliticalPartyById(politician.politicalPartyId);
 			let tweets = [];
 
 			if (politician.twitter) {
@@ -12,6 +13,7 @@ export function createHandleGetPoliticianByIdHttpRequest (getPoliticianById, get
 				title: politician.name,
 				description: politician.text.join(' \n'),
 				politician: politician,
+				politicalParty: politicalParty,
 				tweets: tweets
 			});
 		}

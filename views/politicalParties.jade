@@ -4,12 +4,10 @@ block append head
 	link(href="politikere.css",rel="stylesheet")
 
 block main
-	.section.header
+	.section
 		.container
 			h1= title
 			p.lead= description
-	.section
-		.container
 			.list-group
 				each politicalParty in politicalParties
 					a(href="/politiske-partier/" + politicalParty.id).list-group-item= politicalParty.name

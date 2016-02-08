@@ -1,18 +1,20 @@
-export function createHandleGetPoliticalPartyByIdHttpRequest (getPoliticalPartyById, getTweetsByTwitterUserScreenName) {
+export function createHandleGetPoliticalPartyByIdHttpRequest (getPoliticalPartyById, getPoliticiansByPoliticalPartyId) {
 	return async function handleGetPoliticalPartyByIdHttpRequest(req, res, next) {
 		try {
-			let politicalParty = await getPoliticalPartyById(req.params.politicalPartyId)
+			let politicalParty = await getPoliticalPartyById(req.params.politicalPartyId);
+			let politicians = await getPoliticiansByPoliticalPartyId(req.params.politicalPartyId);
 			let tweets = [];
 
-			if (politicalParty.twitter) {
-				tweets = await getTweetsByTwitterUserScreenName(politicalParty.twitter);
+			if (politician.twitter) {
+				tweets = await getTweetsByTwitterUserScreenName(politician.twitter);
 			};
 
 			res.render('politicalParty.jade', {
 				title: politicalParty.name,
-				description: politicalParty.text.join(' \n'),
+				description: politicalParty.name,
 				politicalParty: politicalParty,
-				tweets: tweets
+				politicians: politicians,
+				tweets: tweets,
 			});
 		}
 		catch (err) {
