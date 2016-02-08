@@ -79,6 +79,6 @@ export async function main () {
       console.log(`Listening on port ${port}`);
     });
   } catch (err) {
-    console.err(err);
+    console.err(err, err.stack);
   }
 }

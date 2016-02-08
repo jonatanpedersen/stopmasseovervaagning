@@ -3,7 +3,7 @@ export function createHandleGetPoliticianByIdHttpRequest (getPoliticianById, get
 		try {
 			let politician = await getPoliticianById(req.params.politicianId);
 			let politicalParty = await getPoliticalPartyById(politician.politicalPartyId);
-			let tweets = [];
+			let tweets;
 
 			if (politician.twitter) {
 				tweets = await getTweetsByTwitterUserScreenName(politician.twitter);
