@@ -1,12 +1,12 @@
-export function createHandleGetPoliticalPartyByIdHttpRequest (getPoliticalPartyById, getPoliticiansByPoliticalPartyId) {
+export function createHandleGetPoliticalPartyByIdHttpRequest (getPoliticalPartyById, getPoliticiansByPoliticalPartyId, getTweetsByTwitterUserScreenName) {
 	return async function handleGetPoliticalPartyByIdHttpRequest(req, res, next) {
 		try {
 			let politicalParty = await getPoliticalPartyById(req.params.politicalPartyId);
 			let politicians = await getPoliticiansByPoliticalPartyId(req.params.politicalPartyId);
-			let tweets = [];
+			let tweets;
 
-			if (politician.twitter) {
-				tweets = await getTweetsByTwitterUserScreenName(politician.twitter);
+			if (politicalParty.twitter) {
+				tweets = await getTweetsByTwitterUserScreenName(politicalParty.twitter);
 			};
 
 			res.render('politicalParty.jade', {

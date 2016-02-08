@@ -55,19 +55,29 @@
 }
 
 .main, .section {
-  padding: 4rem 0;
+  padding: 2.5rem 0;
 }
 
 .hidden {
   display: none;
 }
 
-.section.alt {
+.section:nth-child(2n) {
   background-color: #eee;
 }
 
+.padding-lg-vertical {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+
+.jumbotron {
+  margin: 0;
+}
+
 .img-placeholder {
-  width: 9rem;
-  height: 9rem;
+  width: 10rem;
+  height: 10rem;
   background-color: #ccc;
 }
