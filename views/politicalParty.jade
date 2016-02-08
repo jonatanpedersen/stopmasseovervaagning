@@ -1,0 +1,34 @@
+extend _base
+
+block append head
+	link(href="/politiker.css",rel="stylesheet")
+
+block main
+	.section
+		.container
+			h1.card-title= politicalParty.name
+	.section.alt
+		.container
+			h2 Politikere
+			p.lead Liste over folketingspolitikere.
+			.row
+				each politician in politicians
+					.col-xs-6.col-md-4.col-lg-3
+						a(href="/politikere/" + politician.id).card
+							img(src="/img/" + politician.id + ".jpg").card-img-top.img-fluid
+							.card-block
+								p.card-text
+									span.hidden-lg-down= politician.fullName
+									span.hidden-xl-up= politician.shortName
+	if tweets
+		.section
+			.container
+				h2 Sociale medier
+				p.lead Hvad siger partiet på de sociale medier.
+				each tweet in tweets
+					article.card.card-block
+						p.card-text= tweet.text
+						p.card-text
+							small 
+								span #{moment(tweet.created_at).fromNow()}
+								span  via Twitter

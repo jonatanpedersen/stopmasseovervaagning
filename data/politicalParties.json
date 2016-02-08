@@ -1,6 +1,7 @@
 [
     {
         "id": "alternativet",
+        "name": "Alternativet",
         "members": [
             "uffe-elbaek",
             "torsten-gejl",
@@ -15,6 +16,7 @@
     },
     {
         "id": "dansk-folkeparti",
+        "name": "Dansk Folkeparti",
         "members": [
             "pia-adelsteen",
             "karina-adsbol",
@@ -57,6 +59,7 @@
     },
     {
         "id": "det-konservative folkeparti",
+        "name": "Det Konservative Folkeparti",
         "members": [
             "naser-khader",
             "mai-mercado",
@@ -68,6 +71,7 @@
     },
     {
         "id": "enhedslisten",
+        "name": "Enhedslisten",
         "members": [
             "stine-brix",
             "henning-hyllested",
@@ -87,18 +91,21 @@
     },
     {
         "id": "inuit-ataqatigiit",
+        "name": "Inuit Ataqatigiit",
         "members": [
             "aaja-chemnitz-larsen"
         ]
     },
     {
         "id": "javnaðarflokkurin",
+        "name": "Javnaðarflokkurin",
         "members": [
             "sjurdur-skaale"
         ]
     },
     {
         "id": "liberal-alliance",
+        "name": "Liberal Alliance",
         "members": [
             "simon-emil-ammitzboll",
             "mette-bock",
@@ -117,6 +124,7 @@
     },
     {
         "id": "radikale-venstre",
+        "name": "Radikale Venstre",
         "members": [
             "marianne-jelved",
             "martin-lidegaard",
@@ -126,16 +134,19 @@
             "morten-ostergaard",
             "ida-auken",
             "emrah-tuncer"
-        ]
+        ],
+        "twitter": "radikale"
     },
     {
         "id": "siumut",
+        "name": "Siumut",
         "members": [
             "aleqa-hammond"
         ]
     },
     {
         "id": "socialdemokraterne",
+        "name": "Socialdemokraterne",
         "members": [
             "yildiz-akdogan",
             "christine-antorini",
@@ -188,6 +199,7 @@
     },
     {
         "id": "socialistisk-folkeparti",
+        "name": "Socialistisk Folkeparti",
         "members": [
             "jonas-dahl",
             "pia-olsen-dyhr",
@@ -200,12 +212,14 @@
     },
     {
         "id": "tjóðveldi",
+        "name": "Tjóðveldi",
         "members": [
             "magni-arge"
         ]
     },
     {
         "id": "venstre",
+        "name": "Venstre",
         "members": [
             "hans-nicolai-andersen",
             "erling-bonnesen",

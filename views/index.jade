@@ -15,9 +15,8 @@ block main
 				a(href="/underskriftindsamling",class="btn btn-lg btn-primary") Underskriftindsamling
 	.section
 		.container
-			h2 Artikler
-			p 
-				mall.text-muted  Følg med i hvad dagspressen skriver om emnet...
+			h2 Nyhedstrøm
+			p.lead Nyheder omhandlende masseovervågning.
 			each article in articles
 				article.card.card-block
 					h4.card-title= article.title
@@ -25,5 +24,25 @@ block main
 						small.text-muted #{article.fromNow} via #{article.source}
 					p.card-text= article.description
 					a(href=article.url).btn.btn-primary Læs mere
+	.section.padding-lg-vertical
+		.container
+			.row
+				.col-sm-6.text-sm-center
+					h2 Politikere
+					p.lead Oversigt over politikere i folketinget.
+					p
+						a(href="/politikere").btn.btn-lg.btn-primary Læs mere
+				.col-sm-6
+					.img-circle.center-block.img-placeholder
+	.section.padding-lg-vertical
+		.container
+			.row
+				.col-sm-6.text-sm-center
+					.img-circle.center-block.img-placeholder
+				.col-sm-6.text-sm-center
+					h2 Politiske partier
+					p.lead Oversigt over politiske partier i folketinget.
+					p
+						a(href="/politiske-partier").btn.btn-lg.btn-primary Læs mere
 block append body
 	script(src="/index.js")

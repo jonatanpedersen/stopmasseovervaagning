@@ -55,9 +55,29 @@
 }
 
 .main, .section {
-  padding-top: 3rem;
+  padding: 2.5rem 0;
 }
 
 .hidden {
   display: none;
+}
+
+.section:nth-child(2n) {
+  background-color: #eee;
+}
+
+.padding-lg-vertical {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+
+.jumbotron {
+  margin: 0;
+}
+
+.img-placeholder {
+  width: 10rem;
+  height: 10rem;
+  background-color: #ccc;
 }

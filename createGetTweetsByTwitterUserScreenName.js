@@ -6,6 +6,19 @@ export function createGetTweetsByTwitterUserScreenName (db) {
 					return reject(err);
 				}
 
+				tweets = tweets.map(tweet => {
+					return {
+						text: tweet.data.text,
+						created_at: new Date(tweet.data.created_at)
+					};
+				});
+
+				tweets.sort(function(a, b) {
+						a = a.created_at;
+						b = b.created_at;
+						return a > b ? -1 : a < b ? 1 : 0;
+				});
+
 				return resolve(tweets);
 			});
 		});

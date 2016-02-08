@@ -1,0 +1,15 @@
+extend _base
+
+block append head
+	link(href="politikere.css",rel="stylesheet")
+
+block main
+	.section
+		.container
+			h1= title
+			p.lead= description
+			.list-group
+				each politicalParty in politicalParties
+					a(href="/politiske-partier/" + politicalParty.id).list-group-item
+						span= politicalParty.name
+						small.text-muted.pull-xs-right  #{ (count => count > 1 ? `${count} medlemmer` : '1 medlem')(politicalParty.members.length) }

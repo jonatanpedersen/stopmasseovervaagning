@@ -16,6 +16,9 @@ block main
 									a(href="https://twitter.com/"+ politician.twitter)
 										span @
 										span= politician.twitter
+							if politicalParty
+								li.list-group-item
+									a(href="/politiske-partier/" + politicalParty.id)= politicalParty.name
 							if politician.phone
 								li.list-group-item= politician.phone
 							if politician.email
@@ -27,6 +30,8 @@ block main
 						p.card-text= line
 					each tweet in tweets
 						article.card.card-block
-							p.card-text= tweet.data.text
+							p.card-text= tweet.text
 							p.card-text
-								small #{moment(tweet.data.created_at).fromNow()}
+							small 
+								span #{moment(tweet.created_at).fromNow()}
+								span  via Twitter
