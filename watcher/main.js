@@ -11,15 +11,35 @@ export function main() {
 	q = async.queue(function (task, callback) {
 		setTimeout(function() {
 
-			if (pages[task.url]) {
+			let page = pages[task.url];
+
+			if (page) {
+				page.referers.push(task.referer);
 				console.log('skipping', task.url);
 				return callback();
+			} else {
+				pages[task.url] = page = {
+					url: task.url,
+					referers: []
+				}
+
+				if (task.referer && page.referers.indexOf(task.referer) === -1) {
+					page.referers.push(task.referer);
+				}
 			}
 
 			console.log('downloading', task.url);
 
 			request(task.url, function (err, response, body) {
+				if (err) {
+					page.err = err;
+				}
+				if (response) {
+					page.statusCode = response.statusCode;
+				}
+
 				if (err || response.statusCode !== 200) {
+
 					console.log(err);
 					return callback(err);
 				}
@@ -27,30 +47,30 @@ export function main() {
 				body = relToAbs.convert(body, task.url);
 				let $ = cheerio.load(body);
 
-				let page = {
-					url: task.url,
-					title: $('title').text(),
-					body: $('body').text(),
-					date: Date.now()
-				}
+				page.title = $('title').text();
+				page.description = $('meta[name="description"]').prop('content');
+				page.date =  new Date().toUTCString();
 
-				pages[page.url] = page;
-
-				if(task.depth < 2) {
+				if (task.depth < 2) {
 					$('a').each(function(i, elem) {
-					  let a = $(this);
-						q.push({
-							url:a.prop('href'),
-							depth: task.depth + 1
-						});
+						let a = $(this);
+						let url = a.prop('href');
+
+						if (url && url !== '') {
+							q.push({
+								url: url,
+								referer: task.url,
+								depth: task.depth + 1
+							});
+						}
 					});
 				}
 
 				callback();
 
 			});
-		}, 200);
-	}, 2);
+		}, 1000);
+	}, 10);
 
 
 	// assign a callback
@@ -61,6 +81,6 @@ export function main() {
 
 	// add some items to the queue
 
-	q.push({url: 'http://hnp.dk/', depth: 1});
+	q.push({url: 'http://hnp.dk/', depth: 0});
 
 }
