@@ -7,6 +7,17 @@ block main
 	.section
 		.container
 			h1.card-title= politicalParty.name
+			nav.nav.nav-inline
+				if politicalParty.website
+					a(href=politicalParty.website).nav-link= politicalParty.website			
+				if politicalParty.facebook
+					a(href="https://facebook.com/"+ politicalParty.facebook).nav-link
+						i.icon-facebook
+						span= politicalParty.facebook
+				if politicalParty.twitter
+					a(href="https://twitter.com/"+ politicalParty.twitter).nav-link
+						i.icon-twitter
+						span= politicalParty.twitter
 	.section.alt
 		.container
 			h2 Politikere

@@ -7,15 +7,20 @@ block main
 	.section
 		.container
 			.row
-				.col-sm-3
+				.col-sm-4.col-md-3
 					.card
 						img(src="/img/" + politician.id + ".jpg").card-img-top.img-fluid.center-block
 						ul.list-group.list-group-flush
+							if politician.facebook
+								li.list-group-item 
+									a(href="https://facebook.com/"+ politician.twitter)
+										i.icon-facebook
+										span= politician.facebook
 							if politician.twitter
 								li.list-group-item 
 									a(href="https://twitter.com/"+ politician.twitter)
-										span @
-										span= politician.twitter
+										i.icon-twitter
+										span= politician.twitter										
 							if politicalParty
 								li.list-group-item
 									a(href="/politiske-partier/" + politicalParty.id)= politicalParty.name
@@ -24,7 +29,7 @@ block main
 							if politician.email
 								li.list-group-item 
 									a(href="mailto:"+ politician.email)= politician.email
-				.col-sm-9
+				.col-sm-8.col-md-9
 					h1.card-title= politician.fullName					
 					each line in politician.text
 						p.card-text= line

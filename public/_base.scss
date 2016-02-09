@@ -55,7 +55,7 @@
 }
 
 .main, .section {
-  padding: 2.5rem 0;
+  padding: 2rem 0;
 }
 
 .hidden {
@@ -63,7 +63,7 @@
 }
 
 .section:nth-child(2n) {
-  background-color: #eee;
+  background-color: #f7f7f9;
 }
 
 .padding-lg-vertical {
@@ -71,6 +71,22 @@
   padding-bottom: 4rem;
 }
 
+.padding-md-vertical {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.padding-sm-vertical {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-nav .nav-text {
+    display: block;
+    padding-top: .425rem;
+    padding-bottom: .425rem;
+    color: rgba(0, 0, 0, 0.6);
+}
 
 .jumbotron {
   margin: 0;

@@ -12,7 +12,10 @@
             "carolina-magdalene-maier",
             "rene-gade",
             "nikolaj-amstrup"
-        ]
+        ],
+        "twitter": "alternativet_",
+        "facebook": "alternativet.dk",
+        "website": "http://alternativet.dk/"
     },
     {
         "id": "dansk-folkeparti",
@@ -55,7 +58,10 @@
             "jan-erik-messmann",
             "claus-kvist-hansen",
             "jeppe-jakobsen-1988"
-        ]
+        ],
+        "twitter": null,
+        "facebook": "danskfolkeparti",
+        "website": "http://www.danskfolkeparti.dk/"
     },
     {
         "id": "det-konservative folkeparti",
@@ -67,7 +73,10 @@
             "rasmus-jarlov",
             "soren-pape-poulsen",
             "mette-abildgaard"
-        ]
+        ],
+        "twitter": "KonservativeDK",
+        "facebook": "Konservative",
+        "website": "http://www.konservative.dk/"
     },
     {
         "id": "enhedslisten",
@@ -87,21 +96,30 @@
             "eva-flyvholm",
             "pelle-dragsted",
             "jakob-solvhoj"
-        ]
+        ],
+        "twitter": "Enhedslisten",
+        "facebook": "enhedslisten",
+        "website": "https://enhedslisten.dk/"
     },
     {
         "id": "inuit-ataqatigiit",
         "name": "Inuit Ataqatigiit",
         "members": [
             "aaja-chemnitz-larsen"
-        ]
+        ],
+        "twitter": null,
+        "facebook": null,
+        "website": null
     },
     {
         "id": "javnaðarflokkurin",
         "name": "Javnaðarflokkurin",
         "members": [
             "sjurdur-skaale"
-        ]
+        ],
+        "twitter": null,
+        "facebook": null,
+        "website": null
     },
     {
         "id": "liberal-alliance",
@@ -120,7 +138,10 @@
             "henrik-dahl",
             "may-britt-buch-kattrup",
             "carsten-bach"
-        ]
+        ],
+        "twitter": "LiberalAlliance",
+        "facebook": "LiberalAlliance",
+        "website": "https://www.liberalalliance.dk/"
     },
     {
         "id": "radikale-venstre",
@@ -135,14 +156,19 @@
             "ida-auken",
             "emrah-tuncer"
         ],
-        "twitter": "radikale"
+        "twitter": "radikale",
+        "facebook": "radikalevenstre",
+        "website": "https://www.radikale.dk/"
     },
     {
         "id": "siumut",
         "name": "Siumut",
         "members": [
             "aleqa-hammond"
-        ]
+        ],
+        "twitter": null,
+        "facebook": null,
+        "website": null
     },
     {
         "id": "socialdemokraterne",
@@ -195,7 +221,10 @@
             "malte-larsen",
             "malou-lunderod",
             "anne-paulin"
-        ]
+        ],
+        "twitter": "Spolitik",
+        "facebook": "socialdemokraterne",
+        "website": "http://www.socialdemokraterne.dk/"
     },
     {
         "id": "socialistisk-folkeparti",
@@ -208,14 +237,20 @@
             "lisbeth-bech-poulsen",
             "jacob-mark",
             "trine-torp"
-        ]
+        ],
+        "twitter": "SFpolitik",
+        "facebook": null,
+        "website": "http://sf.dk/"
     },
     {
         "id": "tjóðveldi",
         "name": "Tjóðveldi",
         "members": [
             "magni-arge"
-        ]
+        ],
+        "twitter": null,
+        "facebook": null,
+        "website": null
     },
     {
         "id": "venstre",
@@ -255,6 +290,10 @@
             "marcus-knuth",
             "soren-gade",
             "britt-bager"
-        ]
+        ],
+        "twitter": "venstredk",
+        "facebook": "venstre.dk",
+        "website": "http://www.venstre.dk/"
+
     }
 ]

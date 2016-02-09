@@ -19,9 +19,15 @@ html
 							a(href="/").nav-link stop masseovervågning
 			footer.navbar.navbar-full.navbar-light.bg-white
 				.container
-					p.pull-xs-left &copy; 2016 Stop Masseovervågning
-					ul.nav.navbar-nav.pull-xs-right
-						li.nav-item
-							a(href="https://github.com/jonatanpedersen/stopovervaagningnu")
-								i(class="icon icon-github")
+					.row
+						.col-sm-6.pull-md-left.text-sm-left.text-xs-center.padding-sm-vertical 
+							span &copy; 2016 Stop Masseovervågning
+						.col-sm-6.pull-md-right.text-sm-right.text-xs-center.padding-sm-vertical
+							nav.nav.nav-inline
+								a(href="https://www.facebook.com/groups/171851826519928/",title="Facebook").nav-link
+									span.icon-facebook
+								a(href="https://twitter.com/stmaov",title="Twitter").nav-link
+									span.icon-twitter
+								a(href="https://github.com/jonatanpedersen/stopovervaagningnu",title="GitHub").nav-link
+									span.icon-github
 			script(src="/lib/jquery.min.js")

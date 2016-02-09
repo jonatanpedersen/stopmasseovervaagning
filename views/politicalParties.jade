@@ -12,4 +12,4 @@ block main
 				each politicalParty in politicalParties
 					a(href="/politiske-partier/" + politicalParty.id).list-group-item
 						span= politicalParty.name
-						small.text-muted.pull-xs-right  #{ (count => count > 1 ? `${count} medlemmer` : '1 medlem')(politicalParty.members.length) }
+						small.text-muted.pull-sm-right  #{ (count => count > 1 ? `${count} medlemmer` : '1 medlem')(politicalParty.members.length) }

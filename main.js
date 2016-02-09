@@ -38,8 +38,10 @@ export async function main () {
     let connectToMongoDB = createConnectToMongoDB(mongodb);
     let db = await connectToMongoDB(cnf.mongo.connection);
 
-    let twit = new Twit(cnf.twitter);
-    watchTwitterUserStreamAndStoreTweetsInDb(twit, db);
+    if (cnf.twitter) {
+      let twit = new Twit(cnf.twitter);
+      watchTwitterUserStreamAndStoreTweetsInDb(twit, db);
+    }
 
     let app = express();
     app.locals.moment = moment;

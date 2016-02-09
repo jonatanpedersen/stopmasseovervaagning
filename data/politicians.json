@@ -1,7 +1,7 @@
 [
     {
         "id": "aleqa-hammond",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "siumut",
         "text": [
             "Født den 23. september 1965 (50 år), sidder i Folketinget."
@@ -9,7 +9,8 @@
         "fullName": "Aleqa Hammond",
         "firstName": "Aleqa",
         "lastName": "Hammond",
-        "shortName": "Aleqa H."
+        "shortName": "Aleqa H.",
+        "facebook": null
     },
     {
         "id": "britt-bager",
@@ -21,7 +22,8 @@
         "fullName": "Britt Bager",
         "firstName": "Britt",
         "lastName": "Bager",
-        "shortName": "Britt B."
+        "shortName": "Britt B.",
+        "facebook": null
     },
     {
         "id": "anni-holm-matthiesen",
@@ -33,7 +35,8 @@
         "fullName": "Anni Holm Matthiesen",
         "firstName": "Anni",
         "lastName": "Matthiesen",
-        "shortName": "Anni M."
+        "shortName": "Anni M.",
+        "facebook": null
     },
     {
         "id": "bertel-haarder",
@@ -45,7 +48,8 @@
         "fullName": "Bertel Haarder",
         "firstName": "Bertel",
         "lastName": "Haarder",
-        "shortName": "Bertel H."
+        "shortName": "Bertel H.",
+        "facebook": null
     },
     {
         "id": "anne-paulin",
@@ -57,7 +61,8 @@
         "fullName": "Anne Paulin",
         "firstName": "Anne",
         "lastName": "Paulin",
-        "shortName": "Anne P."
+        "shortName": "Anne P.",
+        "facebook": null
     },
     {
         "id": "annette-lind",
@@ -70,11 +75,12 @@
         "fullName": "Annette Lind",
         "firstName": "Annette",
         "lastName": "Lind",
-        "shortName": "Annette L."
+        "shortName": "Annette L.",
+        "facebook": null
     },
     {
         "id": "bjarne-laustsen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "socialdemokraterne",
         "text": [
             "Født den 9. december 1953 (62 år), sidder i Folketinget."
@@ -82,7 +88,8 @@
         "fullName": "Bjarne Laustsen",
         "firstName": "Bjarne",
         "lastName": "Laustsen",
-        "shortName": "Bjarne L."
+        "shortName": "Bjarne L.",
+        "facebook": null
     },
     {
         "id": "benny-engelbrecht",
@@ -94,7 +101,8 @@
         "fullName": "Benny Engelbrecht",
         "firstName": "Benny",
         "lastName": "Engelbrecht",
-        "shortName": "Benny E."
+        "shortName": "Benny E.",
+        "facebook": null
     },
     {
         "id": "andreas-steenberg",
@@ -106,7 +114,8 @@
         "fullName": "Andreas Steenberg",
         "firstName": "Andreas",
         "lastName": "Steenberg",
-        "shortName": "Andreas S."
+        "shortName": "Andreas S.",
+        "facebook": null
     },
     {
         "id": "anders-samuelsen",
@@ -118,7 +127,8 @@
         "fullName": "Anders Samuelsen",
         "firstName": "Anders",
         "lastName": "Samuelsen",
-        "shortName": "Anders S."
+        "shortName": "Anders S.",
+        "facebook": null
     },
     {
         "id": "aaja-chemnitz-larsen",
@@ -130,11 +140,12 @@
         "fullName": "Aaja Chemnitz Larsen",
         "firstName": "Aaja",
         "lastName": "Larsen",
-        "shortName": "Aaja L."
+        "shortName": "Aaja L.",
+        "facebook": null
     },
     {
         "id": "alex-ahrendtsen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 14. februar 1967 (48 år), sidder i Folketinget."
@@ -142,7 +153,8 @@
         "fullName": "Alex Ahrendtsen",
         "firstName": "Alex",
         "lastName": "Ahrendtsen",
-        "shortName": "Alex A."
+        "shortName": "Alex A.",
+        "facebook": null
     },
     {
         "id": "brian-mikkelsen",
@@ -155,11 +167,12 @@
         "fullName": "Brian Mikkelsen",
         "firstName": "Brian",
         "lastName": "Mikkelsen",
-        "shortName": "Brian M."
+        "shortName": "Brian M.",
+        "facebook": null
     },
     {
         "id": "bent-bogsted",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 4. januar 1956 (60 år), sidder i Folketinget."
@@ -167,7 +180,8 @@
         "fullName": "Bent Bøgsted",
         "firstName": "Bent",
         "lastName": "Bøgsted",
-        "shortName": "Bent B."
+        "shortName": "Bent B.",
+        "facebook": null
     },
     {
         "id": "rene-gade",
@@ -179,11 +193,12 @@
         "fullName": "René Gade",
         "firstName": "René",
         "lastName": "Gade",
-        "shortName": "René G."
+        "shortName": "René G.",
+        "facebook": null
     },
     {
         "id": "henrik-urban-brodersen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 3. juni 1964 (51 år), sidder i Folketinget."
@@ -191,11 +206,12 @@
         "fullName": "Henrik Urban Brodersen",
         "firstName": "Henrik",
         "lastName": "Brodersen",
-        "shortName": "Henrik B."
+        "shortName": "Henrik B.",
+        "facebook": null
     },
     {
         "id": "hans-christian-thoning",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "venstre",
         "text": [
             "Født den 20. februar 1952 (63 år), sidder i Folketinget."
@@ -203,7 +219,8 @@
         "fullName": "Hans Christian Thoning",
         "firstName": "Hans",
         "lastName": "Thoning",
-        "shortName": "Hans T."
+        "shortName": "Hans T.",
+        "facebook": null
     },
     {
         "id": "hans-christian-schmidt",
@@ -215,7 +232,8 @@
         "fullName": "Hans Christian Schmidt",
         "firstName": "Hans",
         "lastName": "Schmidt",
-        "shortName": "Hans S."
+        "shortName": "Hans S.",
+        "facebook": null
     },
     {
         "id": "ellen-trane-norby",
@@ -229,11 +247,12 @@
         "fullName": "Ellen Trane Nørby",
         "firstName": "Ellen",
         "lastName": "Nørby",
-        "shortName": "Ellen N."
+        "shortName": "Ellen N.",
+        "facebook": null
     },
     {
         "id": "esben-lunde-larsen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "venstre",
         "text": [
             "Født den 14. november 1978 (37 år), sidder i Folketinget."
@@ -241,7 +260,8 @@
         "fullName": "Esben Lunde Larsen",
         "firstName": "Esben",
         "lastName": "Larsen",
-        "shortName": "Esben L."
+        "shortName": "Esben L.",
+        "facebook": null
     },
     {
         "id": "christian-poll",
@@ -253,7 +273,8 @@
         "fullName": "Christian Poll",
         "firstName": "Christian",
         "lastName": "Poll",
-        "shortName": "Christian P."
+        "shortName": "Christian P.",
+        "facebook": null
     },
     {
         "id": "eva-kjer-hansen",
@@ -265,7 +286,8 @@
         "fullName": "Eva Kjer Hansen",
         "firstName": "Eva",
         "lastName": "Hansen",
-        "shortName": "Eva H."
+        "shortName": "Eva H.",
+        "facebook": null
     },
     {
         "id": "dennis-flydtkjaer",
@@ -277,11 +299,12 @@
         "fullName": "Dennis Flydtkjær",
         "firstName": "Dennis",
         "lastName": "Flydtkjær",
-        "shortName": "Dennis F."
+        "shortName": "Dennis F.",
+        "facebook": null
     },
     {
         "id": "claus-hjort-frederiksen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "venstre",
         "text": [
             "Født den 4. september 1947 (68 år), sidder i Folketinget."
@@ -289,7 +312,8 @@
         "fullName": "Claus Hjort Frederiksen",
         "firstName": "Claus",
         "lastName": "Frederiksen",
-        "shortName": "Claus F."
+        "shortName": "Claus F.",
+        "facebook": null
     },
     {
         "id": "erling-bonnesen",
@@ -301,7 +325,8 @@
         "fullName": "Erling Bonnesen",
         "firstName": "Erling",
         "lastName": "Bonnesen",
-        "shortName": "Erling B."
+        "shortName": "Erling B.",
+        "facebook": null
     },
     {
         "id": "hans-nicolai-andersen",
@@ -313,7 +338,8 @@
         "fullName": "Hans Nicolai Andersen",
         "firstName": "Hans",
         "lastName": "Andersen",
-        "shortName": "Hans A."
+        "shortName": "Hans A.",
+        "facebook": null
     },
     {
         "id": "erik-christensen",
@@ -325,7 +351,8 @@
         "fullName": "Erik Christensen",
         "firstName": "Erik",
         "lastName": "Christensen",
-        "shortName": "Erik C."
+        "shortName": "Erik C.",
+        "facebook": null
     },
     {
         "id": "christian-rabjerg-madsen",
@@ -337,11 +364,12 @@
         "fullName": "Christian Rabjerg Madsen",
         "firstName": "Christian",
         "lastName": "Madsen",
-        "shortName": "Christian M."
+        "shortName": "Christian M.",
+        "facebook": null
     },
     {
         "id": "christian-langballe",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 17. januar 1967 (49 år), sidder i Folketinget."
@@ -349,7 +377,8 @@
         "fullName": "Christian Langballe",
         "firstName": "Christian",
         "lastName": "Langballe",
-        "shortName": "Christian L."
+        "shortName": "Christian L.",
+        "facebook": null
     },
     {
         "id": "daniel-toft-jakobsen",
@@ -361,11 +390,12 @@
         "fullName": "Daniel Toft Jakobsen",
         "firstName": "Daniel",
         "lastName": "Jakobsen",
-        "shortName": "Daniel J."
+        "shortName": "Daniel J.",
+        "facebook": null
     },
     {
         "id": "helle-thorning-schmidt",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "socialdemokraterne",
         "text": [
             "Født den 14. december 1966 (49 år), sidder i Folketinget."
@@ -373,7 +403,8 @@
         "fullName": "Helle Thorning-Schmidt",
         "firstName": "Helle",
         "lastName": "Thorning-Schmidt",
-        "shortName": "Helle T."
+        "shortName": "Helle T.",
+        "facebook": null
     },
     {
         "id": "hans-kristian-skibby",
@@ -385,7 +416,8 @@
         "fullName": "Hans Kristian Bundgaard-Skibby",
         "firstName": "Hans",
         "lastName": "Bundgaard-Skibby",
-        "shortName": "Hans B."
+        "shortName": "Hans B.",
+        "facebook": null
     },
     {
         "id": "flemming-moller-mortensen",
@@ -397,7 +429,8 @@
         "fullName": "Flemming Møller Mortensen",
         "firstName": "Flemming",
         "lastName": "Mortensen",
-        "shortName": "Flemming M."
+        "shortName": "Flemming M.",
+        "facebook": null
     },
     {
         "id": "carolina-magdalene-maier",
@@ -409,7 +442,8 @@
         "fullName": "Carolina Magdalene Maier",
         "firstName": "Carolina",
         "lastName": "Maier",
-        "shortName": "Carolina M."
+        "shortName": "Carolina M.",
+        "facebook": null
     },
     {
         "id": "henrik-sass-larsen",
@@ -421,11 +455,12 @@
         "fullName": "Henrik Sass Larsen",
         "firstName": "Henrik",
         "lastName": "Larsen",
-        "shortName": "Henrik L."
+        "shortName": "Henrik L.",
+        "facebook": null
     },
     {
         "id": "henrik-dam-kristensen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "socialdemokraterne",
         "text": [
             "Født den 31. januar 1957 (59 år), sidder i Folketinget."
@@ -433,7 +468,8 @@
         "fullName": "Henrik Dam Kristensen",
         "firstName": "Henrik",
         "lastName": "Kristensen",
-        "shortName": "Henrik K."
+        "shortName": "Henrik K.",
+        "facebook": null
     },
     {
         "id": "dan-jorgensen",
@@ -445,7 +481,8 @@
         "fullName": "Dan Jørgensen",
         "firstName": "Dan",
         "lastName": "Jørgensen",
-        "shortName": "Dan J."
+        "shortName": "Dan J.",
+        "facebook": null
     },
     {
         "id": "christine-antorini",
@@ -457,11 +494,12 @@
         "fullName": "Christine Antorini",
         "firstName": "Christine",
         "lastName": "Antorini",
-        "shortName": "Christine A."
+        "shortName": "Christine A.",
+        "facebook": null
     },
     {
         "id": "emrah-tuncer",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "radikale-venstre",
         "text": [
             "Født den 26. august 1978 (37 år), sidder i Folketinget."
@@ -469,11 +507,12 @@
         "fullName": "Emrah Tuncer",
         "firstName": "Emrah",
         "lastName": "Tuncer",
-        "shortName": "Emrah T."
+        "shortName": "Emrah T.",
+        "facebook": null
     },
     {
         "id": "carsten-bach",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "liberal-alliance",
         "text": [
             "Født den 9. december 1975 (40 år), sidder i Folketinget."
@@ -481,7 +520,8 @@
         "fullName": "Carsten Bach",
         "firstName": "Carsten",
         "lastName": "Bach",
-        "shortName": "Carsten B."
+        "shortName": "Carsten B.",
+        "facebook": null
     },
     {
         "id": "henrik-dahl",
@@ -493,11 +533,12 @@
         "fullName": "Henrik Dahl",
         "firstName": "Henrik",
         "lastName": "Dahl",
-        "shortName": "Henrik D."
+        "shortName": "Henrik D.",
+        "facebook": null
     },
     {
         "id": "dorthe-ullemose",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 24. september 1964 (51 år), sidder i Folketinget."
@@ -505,7 +546,8 @@
         "fullName": "Dorthe Ullemose",
         "firstName": "Dorthe",
         "lastName": "Ullemose",
-        "shortName": "Dorthe U."
+        "shortName": "Dorthe U.",
+        "facebook": null
     },
     {
         "id": "christina-egelund",
@@ -520,7 +562,8 @@
         "fullName": "Christina Egelund",
         "firstName": "Christina",
         "lastName": "Egelund",
-        "shortName": "Christina E."
+        "shortName": "Christina E.",
+        "facebook": null
     },
     {
         "id": "eva-flyvholm",
@@ -532,7 +575,8 @@
         "fullName": "Eva Flyvholm",
         "firstName": "Eva",
         "lastName": "Flyvholm",
-        "shortName": "Eva F."
+        "shortName": "Eva F.",
+        "facebook": null
     },
     {
         "id": "claus-kvist-hansen",
@@ -544,7 +588,8 @@
         "fullName": "Claus Kvist Hansen",
         "firstName": "Claus",
         "lastName": "Hansen",
-        "shortName": "Claus H."
+        "shortName": "Claus H.",
+        "facebook": null
     },
     {
         "id": "finn-sorensen",
@@ -556,7 +601,8 @@
         "fullName": "Finn Sørensen",
         "firstName": "Finn",
         "lastName": "Sørensen",
-        "shortName": "Finn S."
+        "shortName": "Finn S.",
+        "facebook": null
     },
     {
         "id": "christian-juhl",
@@ -568,11 +614,12 @@
         "fullName": "Christian Juhl",
         "firstName": "Christian",
         "lastName": "Juhl",
-        "shortName": "Christian J."
+        "shortName": "Christian J.",
+        "facebook": null
     },
     {
         "id": "henning-hyllested",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "enhedslisten",
         "text": [
             "Født den 28. februar 1954 (61 år), sidder i Folketinget."
@@ -580,11 +627,12 @@
         "fullName": "Henning Hyllested",
         "firstName": "Henning",
         "lastName": "Hyllested",
-        "shortName": "Henning H."
+        "shortName": "Henning H.",
+        "facebook": null
     },
     {
         "id": "susanne-eilersen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 24. august 1964 (51 år), sidder i Folketinget.",
@@ -593,7 +641,8 @@
         "fullName": "Susanne Eilersen",
         "firstName": "Susanne",
         "lastName": "Eilersen",
-        "shortName": "Susanne E."
+        "shortName": "Susanne E.",
+        "facebook": null
     },
     {
         "id": "liselott-blixt",
@@ -605,11 +654,12 @@
         "fullName": "Liselott Blixt",
         "firstName": "Liselott",
         "lastName": "Blixt",
-        "shortName": "Liselott B."
+        "shortName": "Liselott B.",
+        "facebook": null
     },
     {
         "id": "kim-christiansen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 14. september 1956 (59 år), sidder i Folketinget."
@@ -617,11 +667,12 @@
         "fullName": "Kim Christiansen",
         "firstName": "Kim",
         "lastName": "Christiansen",
-        "shortName": "Kim C."
+        "shortName": "Kim C.",
+        "facebook": null
     },
     {
         "id": "inger-stojberg",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "venstre",
         "text": [
             "Født den 16. marts 1973 (42 år), sidder i Folketinget."
@@ -629,7 +680,8 @@
         "fullName": "Inger Støjberg",
         "firstName": "Inger",
         "lastName": "Støjberg",
-        "shortName": "Inger S."
+        "shortName": "Inger S.",
+        "facebook": null
     },
     {
         "id": "jens-henrik-thulesen-dahl",
@@ -641,7 +693,8 @@
         "fullName": "Jens Henrik Thulesen Dahl",
         "firstName": "Jens",
         "lastName": "Dahl",
-        "shortName": "Jens D."
+        "shortName": "Jens D.",
+        "facebook": null
     },
     {
         "id": "lars-lokke-rasmussen",
@@ -654,11 +707,12 @@
         "fullName": "Lars Løkke Rasmussen",
         "firstName": "Lars",
         "lastName": "Rasmussen",
-        "shortName": "Lars R."
+        "shortName": "Lars R.",
+        "facebook": null
     },
     {
         "id": "kristian-thulesen-dahl",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 30. juli 1969 (46 år), sidder i Folketinget.",
@@ -667,11 +721,12 @@
         "fullName": "Kristian Thulesen Dahl",
         "firstName": "Kristian",
         "lastName": "Dahl",
-        "shortName": "Kristian D."
+        "shortName": "Kristian D.",
+        "facebook": null
     },
     {
         "id": "johanne-schmidt-nielsen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "enhedslisten",
         "text": [
             "Født den 22. februar 1984 (31 år), sidder i Folketinget.",
@@ -680,7 +735,8 @@
         "fullName": "Johanne Schmidt-Nielsen",
         "firstName": "Johanne",
         "lastName": "Schmidt-Nielsen",
-        "shortName": "Johanne S."
+        "shortName": "Johanne S.",
+        "facebook": null
     },
     {
         "id": "josephine-fock",
@@ -692,7 +748,8 @@
         "fullName": "Josephine Fock",
         "firstName": "Josephine",
         "lastName": "Fock",
-        "shortName": "Josephine F."
+        "shortName": "Josephine F.",
+        "facebook": null
     },
     {
         "id": "jeppe-jakobsen-1988",
@@ -704,7 +761,8 @@
         "fullName": "Jeppe Jakobsen",
         "firstName": "Jeppe",
         "lastName": "Jakobsen",
-        "shortName": "Jeppe J."
+        "shortName": "Jeppe J.",
+        "facebook": null
     },
     {
         "id": "kristian-pihl-lorentzen",
@@ -716,7 +774,8 @@
         "fullName": "Kristian Pihl Lorentzen",
         "firstName": "Kristian",
         "lastName": "Lorentzen",
-        "shortName": "Kristian L."
+        "shortName": "Kristian L.",
+        "facebook": null
     },
     {
         "id": "lars-christian-lilleholt",
@@ -728,7 +787,8 @@
         "fullName": "Lars Christian Lilleholt",
         "firstName": "Lars",
         "lastName": "Lilleholt",
-        "shortName": "Lars L."
+        "shortName": "Lars L.",
+        "facebook": null
     },
     {
         "id": "karsten-styrbaek-lauritzen",
@@ -740,7 +800,8 @@
         "fullName": "Karsten Styrbæk Lauritzen",
         "firstName": "Karsten",
         "lastName": "Lauritzen",
-        "shortName": "Karsten L."
+        "shortName": "Karsten L.",
+        "facebook": null
     },
     {
         "id": "jan-ejnar-jorgensen",
@@ -752,7 +813,8 @@
         "fullName": "Jan Ejnar Jørgensen",
         "firstName": "Jan",
         "lastName": "Jørgensen",
-        "shortName": "Jan J."
+        "shortName": "Jan J.",
+        "facebook": null
     },
     {
         "id": "kristian-jensen",
@@ -764,11 +826,12 @@
         "fullName": "Kristian Jensen",
         "firstName": "Kristian",
         "lastName": "Jensen",
-        "shortName": "Kristian J."
+        "shortName": "Kristian J.",
+        "facebook": null
     },
     {
         "id": "jan-erik-messmann",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 10. december 1948 (67 år), sidder i Folketinget."
@@ -776,7 +839,8 @@
         "fullName": "Jan Erik Messmann",
         "firstName": "Jan",
         "lastName": "Messmann",
-        "shortName": "Jan M."
+        "shortName": "Jan M.",
+        "facebook": null
     },
     {
         "id": "jacob-jensen",
@@ -788,7 +852,8 @@
         "fullName": "Jacob Jensen",
         "firstName": "Jacob",
         "lastName": "Jensen",
-        "shortName": "Jacob J."
+        "shortName": "Jacob J.",
+        "facebook": null
     },
     {
         "id": "jakob-solvhoj",
@@ -800,7 +865,8 @@
         "fullName": "Jakob Sølvhøj",
         "firstName": "Jakob",
         "lastName": "Sølvhøj",
-        "shortName": "Jakob S."
+        "shortName": "Jakob S.",
+        "facebook": null
     },
     {
         "id": "karina-adsbol",
@@ -812,7 +878,8 @@
         "fullName": "Karina Adsbøl",
         "firstName": "Karina",
         "lastName": "Adsbøl",
-        "shortName": "Karina A."
+        "shortName": "Karina A.",
+        "facebook": null
     },
     {
         "id": "jane-heitmann",
@@ -824,7 +891,8 @@
         "fullName": "Jane Heitmann",
         "firstName": "Jane",
         "lastName": "Heitmann",
-        "shortName": "Jane H."
+        "shortName": "Jane H.",
+        "facebook": null
     },
     {
         "id": "jakob-ellemann-jensen",
@@ -837,7 +905,8 @@
         "fullName": "Jakob Ellemann-Jensen",
         "firstName": "Jakob",
         "lastName": "Ellemann-Jensen",
-        "shortName": "Jakob E."
+        "shortName": "Jakob E.",
+        "facebook": null
     },
     {
         "id": "karen-ellemann",
@@ -849,7 +918,8 @@
         "fullName": "Karen Ellemann",
         "firstName": "Karen",
         "lastName": "Ellemann",
-        "shortName": "Karen E."
+        "shortName": "Karen E.",
+        "facebook": null
     },
     {
         "id": "jacob-mark",
@@ -861,7 +931,8 @@
         "fullName": "Jacob Mark",
         "firstName": "Jacob",
         "lastName": "Mark",
-        "shortName": "Jacob M."
+        "shortName": "Jacob M.",
+        "facebook": null
     },
     {
         "id": "laura-lindahl",
@@ -873,7 +944,8 @@
         "fullName": "Laura Lindahl",
         "firstName": "Laura",
         "lastName": "Lindahl",
-        "shortName": "Laura L."
+        "shortName": "Laura L.",
+        "facebook": null
     },
     {
         "id": "leif-mikkelsen",
@@ -885,7 +957,8 @@
         "fullName": "Leif Mikkelsen",
         "firstName": "Leif",
         "lastName": "Mikkelsen",
-        "shortName": "Leif M."
+        "shortName": "Leif M.",
+        "facebook": null
     },
     {
         "id": "lisbeth-bech-poulsen",
@@ -897,7 +970,8 @@
         "fullName": "Lisbeth Bech Poulsen",
         "firstName": "Lisbeth",
         "lastName": "Poulsen",
-        "shortName": "Lisbeth P."
+        "shortName": "Lisbeth P.",
+        "facebook": null
     },
     {
         "id": "joachim-b-olsen",
@@ -909,7 +983,8 @@
         "fullName": "Joachim B. Olsen",
         "firstName": "Joachim",
         "lastName": "Olsen",
-        "shortName": "Joachim O."
+        "shortName": "Joachim O.",
+        "facebook": null
     },
     {
         "id": "holger-k-nielsen",
@@ -921,7 +996,8 @@
         "fullName": "Holger K. Nielsen",
         "firstName": "Holger",
         "lastName": "Nielsen",
-        "shortName": "Holger N."
+        "shortName": "Holger N.",
+        "facebook": null
     },
     {
         "id": "karsten-honge",
@@ -933,7 +1009,8 @@
         "fullName": "Karsten Hønge",
         "firstName": "Karsten",
         "lastName": "Hønge",
-        "shortName": "Karsten H."
+        "shortName": "Karsten H.",
+        "facebook": null
     },
     {
         "id": "karina-due",
@@ -945,11 +1022,12 @@
         "fullName": "Karina Due",
         "firstName": "Karina",
         "lastName": "Due",
-        "shortName": "Karina D."
+        "shortName": "Karina D.",
+        "facebook": null
     },
     {
         "id": "jan-rytkjaer-callesen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 2. maj 1965 (50 år), sidder i Folketinget."
@@ -957,7 +1035,8 @@
         "fullName": "Jan Rytkjær Callesen",
         "firstName": "Jan",
         "lastName": "Callesen",
-        "shortName": "Jan C."
+        "shortName": "Jan C.",
+        "facebook": null
     },
     {
         "id": "jonas-dahl",
@@ -969,11 +1048,12 @@
         "fullName": "Jonas Dahl",
         "firstName": "Jonas",
         "lastName": "Dahl",
-        "shortName": "Jonas D."
+        "shortName": "Jonas D.",
+        "facebook": null
     },
     {
         "id": "kasper-roug",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "socialdemokraterne",
         "text": [
             "Født den 6. juni 1979 (36 år), sidder i Folketinget."
@@ -981,7 +1061,8 @@
         "fullName": "Kasper Roug",
         "firstName": "Kasper",
         "lastName": "Roug",
-        "shortName": "Kasper R."
+        "shortName": "Kasper R.",
+        "facebook": null
     },
     {
         "id": "lea-wermelin",
@@ -993,11 +1074,12 @@
         "fullName": "Lea Wermelin",
         "firstName": "Lea",
         "lastName": "Wermelin",
-        "shortName": "Lea W."
+        "shortName": "Lea W.",
+        "facebook": null
     },
     {
         "id": "karin-nodgaard",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 10. januar 1966 (50 år), sidder i Folketinget."
@@ -1005,7 +1087,8 @@
         "fullName": "Karin Nødgaard",
         "firstName": "Karin",
         "lastName": "Nødgaard",
-        "shortName": "Karin N."
+        "shortName": "Karin N.",
+        "facebook": null
     },
     {
         "id": "julie-skovsby",
@@ -1017,7 +1100,8 @@
         "fullName": "Julie Skovsby",
         "firstName": "Julie",
         "lastName": "Skovsby",
-        "shortName": "Julie S."
+        "shortName": "Julie S.",
+        "facebook": null
     },
     {
         "id": "jesper-petersen",
@@ -1029,7 +1113,8 @@
         "fullName": "Jesper Petersen",
         "firstName": "Jesper",
         "lastName": "Petersen",
-        "shortName": "Jesper P."
+        "shortName": "Jesper P.",
+        "facebook": null
     },
     {
         "id": "kenneth-kristensen-berth",
@@ -1044,7 +1129,8 @@
         "fullName": "Kenneth Kristensen Berth",
         "firstName": "Kenneth",
         "lastName": "Berth",
-        "shortName": "Kenneth B."
+        "shortName": "Kenneth B.",
+        "facebook": null
     },
     {
         "id": "karen-johanne-klint",
@@ -1056,7 +1142,8 @@
         "fullName": "Karen Johanne Klint",
         "firstName": "Karen",
         "lastName": "Klint",
-        "shortName": "Karen K."
+        "shortName": "Karen K.",
+        "facebook": null
     },
     {
         "id": "ida-auken",
@@ -1070,11 +1157,12 @@
         "fullName": "Ida Auken",
         "firstName": "Ida",
         "lastName": "Auken",
-        "shortName": "Ida A."
+        "shortName": "Ida A.",
+        "facebook": null
     },
     {
         "id": "ib-poulsen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 2. februar 1965 (51 år), sidder i Folketinget."
@@ -1082,11 +1170,12 @@
         "fullName": "Ib Poulsen",
         "firstName": "Ib",
         "lastName": "Poulsen",
-        "shortName": "Ib P."
+        "shortName": "Ib P.",
+        "facebook": null
     },
     {
         "id": "jan-johansen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "socialdemokraterne",
         "text": [
             "Født den 12. december 1955 (60 år), sidder i Folketinget."
@@ -1094,7 +1183,8 @@
         "fullName": "Jan Johansen",
         "firstName": "Jan",
         "lastName": "Johansen",
-        "shortName": "Jan J."
+        "shortName": "Jan J.",
+        "facebook": null
     },
     {
         "id": "jens-joel",
@@ -1107,7 +1197,8 @@
         "fullName": "Jens Joel",
         "firstName": "Jens",
         "lastName": "Joel",
-        "shortName": "Jens J."
+        "shortName": "Jens J.",
+        "facebook": null
     },
     {
         "id": "lise-bech",
@@ -1119,7 +1210,8 @@
         "fullName": "Lise Bech",
         "firstName": "Lise",
         "lastName": "Bech",
-        "shortName": "Lise B."
+        "shortName": "Lise B.",
+        "facebook": null
     },
     {
         "id": "leif-lahn-jensen",
@@ -1131,7 +1223,8 @@
         "fullName": "Leif Lahn Jensen",
         "firstName": "Leif",
         "lastName": "Jensen",
-        "shortName": "Leif J."
+        "shortName": "Leif J.",
+        "facebook": null
     },
     {
         "id": "jeppe-bruus",
@@ -1143,7 +1236,8 @@
         "fullName": "Jeppe Bruus",
         "firstName": "Jeppe",
         "lastName": "Bruus",
-        "shortName": "Jeppe B."
+        "shortName": "Jeppe B.",
+        "facebook": null
     },
     {
         "id": "karin-gaardsted",
@@ -1155,11 +1249,12 @@
         "fullName": "Karin Gaardsted",
         "firstName": "Karin",
         "lastName": "Gaardsted",
-        "shortName": "Karin G."
+        "shortName": "Karin G.",
+        "facebook": null
     },
     {
         "id": "lennart-damsbo-andersen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "socialdemokraterne",
         "text": [
             "Født den 5. oktober 1956 (59 år), sidder i Folketinget."
@@ -1167,7 +1262,8 @@
         "fullName": "Lennart Damsbo-Andersen",
         "firstName": "Lennart",
         "lastName": "Damsbo-Andersen",
-        "shortName": "Lennart D."
+        "shortName": "Lennart D.",
+        "facebook": null
     },
     {
         "id": "may-britt-buch-kattrup",
@@ -1179,11 +1275,12 @@
         "fullName": "May-Britt Buch-Kattrup",
         "firstName": "May-Britt",
         "lastName": "Buch-Kattrup",
-        "shortName": "May-Britt B."
+        "shortName": "May-Britt B.",
+        "facebook": null
     },
     {
         "id": "rene-christensen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 31. oktober 1970 (45 år), sidder i Folketinget."
@@ -1191,7 +1288,8 @@
         "fullName": "René Christensen",
         "firstName": "René",
         "lastName": "Christensen",
-        "shortName": "René C."
+        "shortName": "René C.",
+        "facebook": null
     },
     {
         "id": "mette-gjerskov",
@@ -1203,7 +1301,8 @@
         "fullName": "Mette Gjerskov",
         "firstName": "Mette",
         "lastName": "Gjerskov",
-        "shortName": "Mette G."
+        "shortName": "Mette G.",
+        "facebook": null
     },
     {
         "id": "morten-bodskov",
@@ -1215,7 +1314,8 @@
         "fullName": "Morten Bødskov",
         "firstName": "Morten",
         "lastName": "Bødskov",
-        "shortName": "Morten B."
+        "shortName": "Morten B.",
+        "facebook": null
     },
     {
         "id": "orla-hav",
@@ -1227,7 +1327,8 @@
         "fullName": "Orla Hav",
         "firstName": "Orla",
         "lastName": "Hav",
-        "shortName": "Orla H."
+        "shortName": "Orla H.",
+        "facebook": null
     },
     {
         "id": "magnus-heunicke",
@@ -1239,11 +1340,12 @@
         "fullName": "Magnus Heunicke",
         "firstName": "Magnus",
         "lastName": "Heunicke",
-        "shortName": "Magnus H."
+        "shortName": "Magnus H.",
+        "facebook": null
     },
     {
         "id": "per-husted",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "socialdemokraterne",
         "text": [
             "Født den 6. april 1966 (49 år), sidder i Folketinget."
@@ -1251,7 +1353,8 @@
         "fullName": "Per Husted",
         "firstName": "Per",
         "lastName": "Husted",
-        "shortName": "Per H."
+        "shortName": "Per H.",
+        "facebook": null
     },
     {
         "id": "ole-haekkerup",
@@ -1264,11 +1367,12 @@
         "fullName": "Ole Hækkerup",
         "firstName": "Ole",
         "lastName": "Hækkerup",
-        "shortName": "Ole H."
+        "shortName": "Ole H.",
+        "facebook": null
     },
     {
         "id": "marcus-knuth",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "venstre",
         "text": [
             "Født den 2. april 1976 (39 år), sidder i Folketinget."
@@ -1276,7 +1380,8 @@
         "fullName": "Marcus Knuth",
         "firstName": "Marcus",
         "lastName": "Knuth",
-        "shortName": "Marcus K."
+        "shortName": "Marcus K.",
+        "facebook": null
     },
     {
         "id": "mogens-jensen",
@@ -1288,7 +1393,8 @@
         "fullName": "Mogens Jensen",
         "firstName": "Mogens",
         "lastName": "Jensen",
-        "shortName": "Mogens J."
+        "shortName": "Mogens J.",
+        "facebook": null
     },
     {
         "id": "morten-lokkegaard",
@@ -1300,7 +1406,8 @@
         "fullName": "Morten Løkkegaard",
         "firstName": "Morten",
         "lastName": "Løkkegaard",
-        "shortName": "Morten L."
+        "shortName": "Morten L.",
+        "facebook": null
     },
     {
         "id": "mette-abildgaard",
@@ -1312,7 +1419,8 @@
         "fullName": "Mette Abildgaard",
         "firstName": "Mette",
         "lastName": "Abildgaard",
-        "shortName": "Mette A."
+        "shortName": "Mette A.",
+        "facebook": null
     },
     {
         "id": "pernille-bendixen",
@@ -1324,7 +1432,8 @@
         "fullName": "Pernille Bendixen",
         "firstName": "Pernille",
         "lastName": "Bendixen",
-        "shortName": "Pernille B."
+        "shortName": "Pernille B.",
+        "facebook": null
     },
     {
         "id": "morten-ostergaard",
@@ -1336,7 +1445,8 @@
         "fullName": "Morten Østergaard",
         "firstName": "Morten",
         "lastName": "Østergaard",
-        "shortName": "Morten Ø."
+        "shortName": "Morten Ø.",
+        "facebook": null
     },
     {
         "id": "mai-mercado",
@@ -1349,7 +1459,8 @@
         "fullName": "Mai Mercado",
         "firstName": "Mai",
         "lastName": "Mercado",
-        "shortName": "Mai M."
+        "shortName": "Mai M.",
+        "facebook": null
     },
     {
         "id": "nikolaj-amstrup",
@@ -1361,7 +1472,8 @@
         "fullName": "Nikolaj Amstrup",
         "firstName": "Nikolaj",
         "lastName": "Amstrup",
-        "shortName": "Nikolaj A."
+        "shortName": "Nikolaj A.",
+        "facebook": null
     },
     {
         "id": "rasmus-horn-langhoff",
@@ -1373,7 +1485,8 @@
         "fullName": "Rasmus Horn Langhoff",
         "firstName": "Rasmus",
         "lastName": "Langhoff",
-        "shortName": "Rasmus L."
+        "shortName": "Rasmus L.",
+        "facebook": null
     },
     {
         "id": "rasmus-jarlov",
@@ -1385,7 +1498,8 @@
         "fullName": "Rasmus Jarlov",
         "firstName": "Rasmus",
         "lastName": "Jarlov",
-        "shortName": "Rasmus J."
+        "shortName": "Rasmus J.",
+        "facebook": null
     },
     {
         "id": "naser-khader",
@@ -1397,7 +1511,8 @@
         "fullName": "Naser Khader",
         "firstName": "Naser",
         "lastName": "Khader",
-        "shortName": "Naser K."
+        "shortName": "Naser K.",
+        "facebook": null
     },
     {
         "id": "rasmus-nordqvist",
@@ -1409,7 +1524,8 @@
         "fullName": "Rasmus Nordqvist",
         "firstName": "Rasmus",
         "lastName": "Nordqvist",
-        "shortName": "Rasmus N."
+        "shortName": "Rasmus N.",
+        "facebook": null
     },
     {
         "id": "peter-skaarup",
@@ -1421,7 +1537,8 @@
         "fullName": "Peter Skaarup",
         "firstName": "Peter",
         "lastName": "Skaarup",
-        "shortName": "Peter S."
+        "shortName": "Peter S.",
+        "facebook": null
     },
     {
         "id": "maja-panduro",
@@ -1434,7 +1551,8 @@
         "fullName": "Maja Panduro",
         "firstName": "Maja",
         "lastName": "Panduro",
-        "shortName": "Maja P."
+        "shortName": "Maja P.",
+        "facebook": null
     },
     {
         "id": "lotte-rod",
@@ -1447,7 +1565,8 @@
         "fullName": "Lotte Rod",
         "firstName": "Lotte",
         "lastName": "Rod",
-        "shortName": "Lotte R."
+        "shortName": "Lotte R.",
+        "facebook": null
     },
     {
         "id": "rasmus-prehn",
@@ -1459,7 +1578,8 @@
         "fullName": "Rasmus Prehn",
         "firstName": "Rasmus",
         "lastName": "Prehn",
-        "shortName": "Rasmus P."
+        "shortName": "Rasmus P.",
+        "facebook": null
     },
     {
         "id": "pernille-skipper",
@@ -1471,7 +1591,8 @@
         "fullName": "Pernille Skipper",
         "firstName": "Pernille",
         "lastName": "Skipper",
-        "shortName": "Pernille S."
+        "shortName": "Pernille S.",
+        "facebook": null
     },
     {
         "id": "mette-reissmann",
@@ -1483,7 +1604,8 @@
         "fullName": "Mette Reissmann",
         "firstName": "Mette",
         "lastName": "Reissmann",
-        "shortName": "Mette R."
+        "shortName": "Mette R.",
+        "facebook": null
     },
     {
         "id": "pernille-rosenkrantz-theil",
@@ -1496,7 +1618,8 @@
         "fullName": "Pernille Rosenkrantz-Theil",
         "firstName": "Pernille",
         "lastName": "Rosenkrantz-Theil",
-        "shortName": "Pernille R."
+        "shortName": "Pernille R.",
+        "facebook": null
     },
     {
         "id": "nikolaj-villumsen",
@@ -1508,7 +1631,8 @@
         "fullName": "Nikolaj Villumsen",
         "firstName": "Nikolaj",
         "lastName": "Villumsen",
-        "shortName": "Nikolaj V."
+        "shortName": "Nikolaj V.",
+        "facebook": null
     },
     {
         "id": "martin-lidegaard",
@@ -1520,7 +1644,8 @@
         "fullName": "Martin Lidegaard",
         "firstName": "Martin",
         "lastName": "Lidegaard",
-        "shortName": "Martin L."
+        "shortName": "Martin L.",
+        "facebook": null
     },
     {
         "id": "nicolai-wammen",
@@ -1532,7 +1657,8 @@
         "fullName": "Nicolai Wammen",
         "firstName": "Nicolai",
         "lastName": "Wammen",
-        "shortName": "Nicolai W."
+        "shortName": "Nicolai W.",
+        "facebook": null
     },
     {
         "id": "peter-hummelgaard",
@@ -1546,7 +1672,8 @@
         "fullName": "Peter Hummelgaard",
         "firstName": "Peter",
         "lastName": "Hummelgaard",
-        "shortName": "Peter H."
+        "shortName": "Peter H.",
+        "facebook": null
     },
     {
         "id": "marianne-jelved",
@@ -1558,7 +1685,8 @@
         "fullName": "Marianne Jelved",
         "firstName": "Marianne",
         "lastName": "Jelved",
-        "shortName": "Marianne J."
+        "shortName": "Marianne J.",
+        "facebook": null
     },
     {
         "id": "mattias-tesfaye",
@@ -1570,7 +1698,8 @@
         "fullName": "Mattias Tesfaye",
         "firstName": "Mattias",
         "lastName": "Tesfaye",
-        "shortName": "Mattias T."
+        "shortName": "Mattias T.",
+        "facebook": null
     },
     {
         "id": "morten-marinus",
@@ -1582,11 +1711,12 @@
         "fullName": "Morten Marinus",
         "firstName": "Morten",
         "lastName": "Marinus",
-        "shortName": "Morten M."
+        "shortName": "Morten M.",
+        "facebook": null
     },
     {
         "id": "merete-dea-larsen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 19. april 1978 (37 år), sidder i Folketinget."
@@ -1594,7 +1724,8 @@
         "fullName": "Merete Dea Larsen",
         "firstName": "Merete",
         "lastName": "Larsen",
-        "shortName": "Merete L."
+        "shortName": "Merete L.",
+        "facebook": null
     },
     {
         "id": "pernille-schnoor",
@@ -1606,7 +1737,8 @@
         "fullName": "Pernille Schnoor",
         "firstName": "Pernille",
         "lastName": "Schnoor",
-        "shortName": "Pernille S."
+        "shortName": "Pernille S.",
+        "facebook": null
     },
     {
         "id": "marie-krarup",
@@ -1618,7 +1750,8 @@
         "fullName": "Marie Krarup",
         "firstName": "Marie",
         "lastName": "Krarup",
-        "shortName": "Marie K."
+        "shortName": "Marie K.",
+        "facebook": null
     },
     {
         "id": "peter-kofod-poulsen",
@@ -1630,7 +1763,8 @@
         "fullName": "Peter Kofod Poulsen",
         "firstName": "Peter",
         "lastName": "Poulsen",
-        "shortName": "Peter P."
+        "shortName": "Peter P.",
+        "facebook": null
     },
     {
         "id": "malte-larsen",
@@ -1642,11 +1776,12 @@
         "fullName": "Malte Larsen",
         "firstName": "Malte",
         "lastName": "Larsen",
-        "shortName": "Malte L."
+        "shortName": "Malte L.",
+        "facebook": null
     },
     {
         "id": "malou-lunderod",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "socialdemokraterne",
         "text": [
             "Født den 13. oktober 1980 (35 år), sidder i Folketinget."
@@ -1654,11 +1789,12 @@
         "fullName": "Malou Lunderød",
         "firstName": "Malou",
         "lastName": "Lunderød",
-        "shortName": "Malou L."
+        "shortName": "Malou L.",
+        "facebook": null
     },
     {
         "id": "mette-hjermind-dencker",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 24. maj 1978 (37 år), sidder i Folketinget."
@@ -1666,11 +1802,12 @@
         "fullName": "Mette Hjermind Dencker",
         "firstName": "Mette",
         "lastName": "Dencker",
-        "shortName": "Mette D."
+        "shortName": "Mette D.",
+        "facebook": null
     },
     {
         "id": "mette-frederiksen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "socialdemokraterne",
         "text": [
             "Født den 19. november 1977 (38 år), sidder i Folketinget.",
@@ -1679,7 +1816,8 @@
         "fullName": "Mette Frederiksen",
         "firstName": "Mette",
         "lastName": "Frederiksen",
-        "shortName": "Mette F."
+        "shortName": "Mette F.",
+        "facebook": null
     },
     {
         "id": "pia-olsen-dyhr",
@@ -1692,7 +1830,8 @@
         "fullName": "Pia Olsen Dyhr",
         "firstName": "Pia",
         "lastName": "Dyhr",
-        "shortName": "Pia D."
+        "shortName": "Pia D.",
+        "facebook": null
     },
     {
         "id": "pia-adelsteen",
@@ -1704,7 +1843,8 @@
         "fullName": "Pia Adelsteen",
         "firstName": "Pia",
         "lastName": "Adelsteen",
-        "shortName": "Pia A."
+        "shortName": "Pia A.",
+        "facebook": null
     },
     {
         "id": "merete-riisager",
@@ -1716,7 +1856,8 @@
         "fullName": "Merete Riisager",
         "firstName": "Merete",
         "lastName": "Riisager",
-        "shortName": "Merete R."
+        "shortName": "Merete R.",
+        "facebook": null
     },
     {
         "id": "ole-birk-olesen",
@@ -1728,7 +1869,8 @@
         "fullName": "Ole Birk Olesen",
         "firstName": "Ole",
         "lastName": "Olesen",
-        "shortName": "Ole O."
+        "shortName": "Ole O.",
+        "facebook": null
     },
     {
         "id": "maria-reumert-gjerding",
@@ -1740,7 +1882,8 @@
         "fullName": "Maria Reumert Gjerding",
         "firstName": "Maria",
         "lastName": "Gjerding",
-        "shortName": "Maria G."
+        "shortName": "Maria G.",
+        "facebook": null
     },
     {
         "id": "peter-juel-jensen",
@@ -1752,11 +1895,12 @@
         "fullName": "Peter Juel Jensen",
         "firstName": "Peter",
         "lastName": "Jensen",
-        "shortName": "Peter J."
+        "shortName": "Peter J.",
+        "facebook": null
     },
     {
         "id": "magni-arge",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "tjóðveldi",
         "text": [
             "Født den 15. december 1959 (56 år), sidder i Folketinget."
@@ -1764,11 +1908,12 @@
         "fullName": "Magni Arge",
         "firstName": "Magni",
         "lastName": "Arge",
-        "shortName": "Magni A."
+        "shortName": "Magni A.",
+        "facebook": null
     },
     {
         "id": "pia-kjaersgaard",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 23. februar 1947 (68 år), sidder i Folketinget.",
@@ -1777,11 +1922,12 @@
         "fullName": "Pia Kjærsgaard",
         "firstName": "Pia",
         "lastName": "Kjærsgaard",
-        "shortName": "Pia K."
+        "shortName": "Pia K.",
+        "facebook": null
     },
     {
         "id": "martin-henriksen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 25. januar 1980 (36 år), sidder i Folketinget."
@@ -1789,7 +1935,8 @@
         "fullName": "Martin Henriksen",
         "firstName": "Martin",
         "lastName": "Henriksen",
-        "shortName": "Martin H."
+        "shortName": "Martin H.",
+        "facebook": null
     },
     {
         "id": "michael-aastrup-jensen",
@@ -1801,7 +1948,8 @@
         "fullName": "Michael Aastrup Jensen",
         "firstName": "Michael",
         "lastName": "Jensen",
-        "shortName": "Michael J."
+        "shortName": "Michael J.",
+        "facebook": null
     },
     {
         "id": "louise-schack-elholm",
@@ -1813,7 +1961,8 @@
         "fullName": "Louise Schack Elholm",
         "firstName": "Louise",
         "lastName": "Elholm",
-        "shortName": "Louise E."
+        "shortName": "Louise E.",
+        "facebook": null
     },
     {
         "id": "mette-bock",
@@ -1825,7 +1974,8 @@
         "fullName": "Mette Bock",
         "firstName": "Mette",
         "lastName": "Bock",
-        "shortName": "Mette B."
+        "shortName": "Mette B.",
+        "facebook": null
     },
     {
         "id": "pelle-dragsted",
@@ -1837,7 +1987,8 @@
         "fullName": "Pelle Dragsted",
         "firstName": "Pelle",
         "lastName": "Dragsted",
-        "shortName": "Pelle D."
+        "shortName": "Pelle D.",
+        "facebook": null
     },
     {
         "id": "marlene-harpsoe",
@@ -1849,11 +2000,12 @@
         "fullName": "Marlene Harpsøe",
         "firstName": "Marlene",
         "lastName": "Harpsøe",
-        "shortName": "Marlene H."
+        "shortName": "Marlene H.",
+        "facebook": null
     },
     {
         "id": "mikkel-dencker",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "dansk-folkeparti",
         "text": [
             "Født den 20. november 1975 (40 år), sidder i Folketinget."
@@ -1861,11 +2013,12 @@
         "fullName": "Mikkel Dencker",
         "firstName": "Mikkel",
         "lastName": "Dencker",
-        "shortName": "Mikkel D."
+        "shortName": "Mikkel D.",
+        "facebook": null
     },
     {
         "id": "preben-bang-henriksen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "venstre",
         "text": [
             "Født den 11. februar 1954 (61 år), sidder i Folketinget."
@@ -1873,7 +2026,8 @@
         "fullName": "Preben Bang Henriksen",
         "firstName": "Preben",
         "lastName": "Henriksen",
-        "shortName": "Preben H."
+        "shortName": "Preben H.",
+        "facebook": null
     },
     {
         "id": "troels-ravn",
@@ -1885,11 +2039,12 @@
         "fullName": "Troels Ravn",
         "firstName": "Troels",
         "lastName": "Ravn",
-        "shortName": "Troels R."
+        "shortName": "Troels R.",
+        "facebook": null
     },
     {
         "id": "sjurdur-skaale",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "javnaðarflokkurin",
         "text": [
             "Født den 8. marts 1967 (48 år), sidder i Folketinget."
@@ -1897,7 +2052,8 @@
         "fullName": "Sjúrður Skaale",
         "firstName": "Sjúrður",
         "lastName": "Skaale",
-        "shortName": "Sjúrður S."
+        "shortName": "Sjúrður S.",
+        "facebook": null
     },
     {
         "id": "simon-emil-ammitzboll",
@@ -1910,7 +2066,8 @@
         "fullName": "Simon Emil Ammitzbøll",
         "firstName": "Simon",
         "lastName": "Ammitzbøll",
-        "shortName": "Simon A."
+        "shortName": "Simon A.",
+        "facebook": null
     },
     {
         "id": "simon-kollerup",
@@ -1922,7 +2079,8 @@
         "fullName": "Simon Kollerup",
         "firstName": "Simon",
         "lastName": "Kollerup",
-        "shortName": "Simon K."
+        "shortName": "Simon K.",
+        "facebook": null
     },
     {
         "id": "rune-lund",
@@ -1934,7 +2092,8 @@
         "fullName": "Rune Lund",
         "firstName": "Rune",
         "lastName": "Lund",
-        "shortName": "Rune L."
+        "shortName": "Rune L.",
+        "facebook": null
     },
     {
         "id": "soren-pind",
@@ -1946,7 +2105,8 @@
         "fullName": "Søren Pind",
         "firstName": "Søren",
         "lastName": "Pind",
-        "shortName": "Søren P."
+        "shortName": "Søren P.",
+        "facebook": null
     },
     {
         "id": "trine-torp",
@@ -1958,11 +2118,12 @@
         "fullName": "Trine Torp",
         "firstName": "Trine",
         "lastName": "Torp",
-        "shortName": "Trine T."
+        "shortName": "Trine T.",
+        "facebook": null
     },
     {
         "id": "soren-gade",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "venstre",
         "text": [
             "Født den 27. januar 1963 (53 år), sidder i Folketinget."
@@ -1970,7 +2131,8 @@
         "fullName": "Søren Gade",
         "firstName": "Søren",
         "lastName": "Gade",
-        "shortName": "Søren G."
+        "shortName": "Søren G.",
+        "facebook": null
     },
     {
         "id": "thomas-danielsen",
@@ -1983,11 +2145,12 @@
         "fullName": "Thomas Danielsen",
         "firstName": "Thomas",
         "lastName": "Danielsen",
-        "shortName": "Thomas D."
+        "shortName": "Thomas D.",
+        "facebook": null
     },
     {
         "id": "soren-bo-sondergaard",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "enhedslisten",
         "text": [
             "Født den 16. august 1955 (60 år), sidder i Folketinget.",
@@ -1996,7 +2159,8 @@
         "fullName": "Søren Bo Søndergaard",
         "firstName": "Søren",
         "lastName": "Søndergaard",
-        "shortName": "Søren S."
+        "shortName": "Søren S.",
+        "facebook": null
     },
     {
         "id": "sofie-carsten-nielsen",
@@ -2008,7 +2172,8 @@
         "fullName": "Sofie Carsten Nielsen",
         "firstName": "Sofie",
         "lastName": "Nielsen",
-        "shortName": "Sofie N."
+        "shortName": "Sofie N.",
+        "facebook": null
     },
     {
         "id": "sophie-lohde",
@@ -2020,7 +2185,8 @@
         "fullName": "Sophie Løhde",
         "firstName": "Sophie",
         "lastName": "Løhde",
-        "shortName": "Sophie L."
+        "shortName": "Sophie L.",
+        "facebook": null
     },
     {
         "id": "soren-espersen",
@@ -2032,7 +2198,8 @@
         "fullName": "Søren Espersen",
         "firstName": "Søren",
         "lastName": "Espersen",
-        "shortName": "Søren E."
+        "shortName": "Søren E.",
+        "facebook": null
     },
     {
         "id": "tilde-bork",
@@ -2045,7 +2212,8 @@
         "fullName": "Tilde Bork",
         "firstName": "Tilde",
         "lastName": "Bork",
-        "shortName": "Tilde B."
+        "shortName": "Tilde B.",
+        "facebook": null
     },
     {
         "id": "torsten-schack-pedersen",
@@ -2057,7 +2225,8 @@
         "fullName": "Torsten Schack Pedersen",
         "firstName": "Torsten",
         "lastName": "Pedersen",
-        "shortName": "Torsten P."
+        "shortName": "Torsten P.",
+        "facebook": null
     },
     {
         "id": "trine-bramsen",
@@ -2069,7 +2238,8 @@
         "fullName": "Trine Bramsen",
         "firstName": "Trine",
         "lastName": "Bramsen",
-        "shortName": "Trine B."
+        "shortName": "Trine B.",
+        "facebook": null
     },
     {
         "id": "soren-pape-poulsen",
@@ -2082,11 +2252,12 @@
         "fullName": "Søren Pape",
         "firstName": "Søren",
         "lastName": "Pape",
-        "shortName": "Søren P."
+        "shortName": "Søren P.",
+        "facebook": null
     },
     {
         "id": "soren-egge-rasmussen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "enhedslisten",
         "text": [
             "Født den 2. juli 1961 (54 år), sidder i Folketinget."
@@ -2094,7 +2265,8 @@
         "fullName": "Søren Egge Rasmussen",
         "firstName": "Søren",
         "lastName": "Rasmussen",
-        "shortName": "Søren R."
+        "shortName": "Søren R.",
+        "facebook": null
     },
     {
         "id": "stine-brix",
@@ -2106,7 +2278,8 @@
         "fullName": "Stine Brix",
         "firstName": "Stine",
         "lastName": "Brix",
-        "shortName": "Stine B."
+        "shortName": "Stine B.",
+        "facebook": null
     },
     {
         "id": "torsten-gejl",
@@ -2118,7 +2291,8 @@
         "fullName": "Torsten Gejl",
         "firstName": "Torsten",
         "lastName": "Gejl",
-        "shortName": "Torsten G."
+        "shortName": "Torsten G.",
+        "facebook": null
     },
     {
         "id": "troels-lund-poulsen",
@@ -2130,7 +2304,8 @@
         "fullName": "Troels Lund Poulsen",
         "firstName": "Troels",
         "lastName": "Poulsen",
-        "shortName": "Troels P."
+        "shortName": "Troels P.",
+        "facebook": null
     },
     {
         "id": "uffe-elbaek",
@@ -2145,7 +2320,8 @@
         "fullName": "Uffe Elbæk",
         "firstName": "Uffe",
         "lastName": "Elbæk",
-        "shortName": "Uffe E."
+        "shortName": "Uffe E.",
+        "facebook": null
     },
     {
         "id": "ulla-sandbaek",
@@ -2157,11 +2333,12 @@
         "fullName": "Ulla Sandbæk",
         "firstName": "Ulla",
         "lastName": "Sandbæk",
-        "shortName": "Ulla S."
+        "shortName": "Ulla S.",
+        "facebook": null
     },
     {
         "id": "villum-christensen",
-        "twitter": "",
+        "twitter": null,
         "politicalPartyId": "liberal-alliance",
         "text": [
             "Født den 31. juli 1954 (61 år), sidder i Folketinget.",
@@ -2170,7 +2347,8 @@
         "fullName": "Villum Christensen",
         "firstName": "Villum",
         "lastName": "Christensen",
-        "shortName": "Villum C."
+        "shortName": "Villum C.",
+        "facebook": null
     },
     {
         "id": "yildiz-akdogan",
@@ -2184,6 +2362,7 @@
         "fullName": "Yildiz Akdogan",
         "firstName": "Yildiz",
         "lastName": "Akdogan",
-        "shortName": "Yildiz A."
+        "shortName": "Yildiz A.",
+        "facebook": null
     }
 ]

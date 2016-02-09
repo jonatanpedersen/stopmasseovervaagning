@@ -24,22 +24,22 @@ block main
 						small.text-muted #{article.fromNow} via #{article.source}
 					p.card-text= article.description
 					a(href=article.url).btn.btn-primary Læs mere
-	.section.padding-lg-vertical
+	.section
 		.container
 			.row
-				.col-sm-6.text-sm-center
+				.col-sm-6.text-xs-center.padding-sm-vertical
+					.img-circle.center-block.img-placeholder
+				.col-sm-6.text-xs-center.padding-sm-vertical
 					h2 Politikere
 					p.lead Oversigt over politikere i folketinget.
 					p
 						a(href="/politikere").btn.btn-lg.btn-primary Læs mere
-				.col-sm-6
-					.img-circle.center-block.img-placeholder
 	.section.padding-lg-vertical
 		.container
 			.row
-				.col-sm-6.text-sm-center
+				.col-sm-6.pull-sm-right.text-xs-center.padding-sm-vertical
 					.img-circle.center-block.img-placeholder
-				.col-sm-6.text-sm-center
+				.col-sm-6.pull-sm-left.text-xs-center.padding-sm-vertical
 					h2 Politiske partier
 					p.lead Oversigt over politiske partier i folketinget.
 					p
