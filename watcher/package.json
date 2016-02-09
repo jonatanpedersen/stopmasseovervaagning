@@ -1,0 +1,19 @@
+{
+  "name": "watcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "babel-core": "^6.4.5",
+    "babel-preset-es2015-node": "^5.0.2",
+    "cheerio": "^0.20.0",
+    "rel-to-abs": "^0.1.0",
+    "request": "^2.69.0"
+  }
+}
